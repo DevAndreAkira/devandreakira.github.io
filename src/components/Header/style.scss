@@ -43,13 +43,13 @@ body {
 
 header.header nav {
     border-radius: 20px;
-    background: var(--bg1);
-    box-shadow: 0 8px 32px 0 var(--shadow);
+    background: var(--bg1) !important;
+    box-shadow: 0 8px 32px 0 var(--shadow) !important;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
     border: 1px solid var(--border-primary);
-    transform: translateX(-20px);
+    // transform: translateX(-20px) !important;
 }
 
 header nav div.container-fluid button {
@@ -303,11 +303,39 @@ div.none,
     main {
         width: 100% !important;
     }
+
+    #responsive-navbar-nav>div>ul {
+        background: #0d101e;
+        background: var(--bg2);
+        border: 1px solid #05c3c32e;
+        border: 1px solid var(--border-primary);
+        border-radius: 20px;
+        border-radius: 10px;
+        box-shadow: 0 8px 32px 0 #1f26875e;
+        box-shadow: 0 8px 32px 0 var(--shadow);
+        text-align: left;
+        width: 200px !important;
+    }
+
+    #responsive-navbar-nav>div>ul>li:nth-child(1)>a {
+        align-items: center;
+        display: flex;
+    }
+
+    #responsive-navbar-nav>div>ul>li:nth-child(1)>a>img {
+        height: 30px;
+        width: 30px;
+        margin-right: 5px;
+    }
+
+    #root > div > div > main > div.d-flex.align-items-start.justify-content-between > ul{
+        margin-left: auto !important;
+    }
 }
 
 .slide {
-    animation: slide 1s;
-    animation-fill-mode: forwards;
+    animation: slide 1s !important;
+    animation-fill-mode: forwards !important;
 }
 
 @keyframes slide {

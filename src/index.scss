@@ -95,3 +95,18 @@ h2 {
     top: 3px;
     left: 2px;
 }
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem !important;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.modal-content{
+    color: #fff !important;
+}
+
+header > nav{
+    align-items: flex-start !important;
+}
