@@ -74,7 +74,7 @@ p.espaco {
     }
 }
 
-button#btn_small {
+button.btn_small {
     background: #dff6fe;
     color: $ciano !important;
     font-size: 12px !important;
@@ -103,7 +103,7 @@ button.btn_arm.up {
     background: $azul;
 }
 
-button#btn_small:hover {
+button.btn_small:hover {
     background-color: #fff;
 }
 
