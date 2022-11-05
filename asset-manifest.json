@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.34267388.css",
-    "main.js": "/static/js/main.032db5db.js",
+    "main.js": "/static/js/main.23c96d56.js",
     "static/media/bg.webp": "/static/media/bg.9567fd657a18f59ffcbf.webp",
     "static/media/soccer.png": "/static/media/soccer.0d6e3ee1a96c90163f1f.png",
     "static/media/anfarmag.png": "/static/media/anfarmag.3979fe611e552a9bffe2.png",
@@ -12,7 +12,6 @@
     "static/media/la2.jpg": "/static/media/la2.398706660a85c6e1c7af.jpg",
     "static/media/interativa2.jpg": "/static/media/interativa2.ae76e61e4e08585d2f12.jpg",
     "static/media/we2.jpg": "/static/media/we2.1082a71742578f5fa4ea.jpg",
-    "static/media/mee.png": "/static/media/mee.257612ffe9cee8e6e4aa.png",
     "static/media/anfarmag2.jpg": "/static/media/anfarmag2.5ff34145c6d6cdd4b3f6.jpg",
     "static/media/a3tech3.jpg": "/static/media/a3tech3.7e8b4b12c635dd926a8a.jpg",
     "static/media/roma3.jpg": "/static/media/roma3.b49b3f02de6bd80df935.jpg",
@@ -33,6 +32,7 @@
     "static/media/sqlServer.png": "/static/media/sqlServer.56563703fa61878c8976.png",
     "static/media/wefood.jpeg": "/static/media/wefood.e69bb7fe04efa60aa799.jpeg",
     "static/media/cloudy.jpeg": "/static/media/cloudy.04419344f84f494a0556.jpeg",
+    "static/media/mee.png": "/static/media/mee.1ad67ad9564530ec77a2.png",
     "static/media/wordpress.png": "/static/media/wordpress.00bff5ca3d03084f3493.png",
     "static/media/react.png": "/static/media/react.3dc3e4afdbb9b12d9a4e.png",
     "static/media/clo3.jpg": "/static/media/clo3.03ac31c8adb077818d8d.jpg",
@@ -71,10 +71,10 @@
     "index.html": "/index.html",
     "static/media/tree.svg": "/static/media/tree.16612405db6556ac86ab48c3a1af3fec.svg",
     "main.34267388.css.map": "/static/css/main.34267388.css.map",
-    "main.032db5db.js.map": "/static/js/main.032db5db.js.map"
+    "main.23c96d56.js.map": "/static/js/main.23c96d56.js.map"
   },
   "entrypoints": [
     "static/css/main.34267388.css",
-    "static/js/main.032db5db.js"
+    "static/js/main.23c96d56.js"
   ]
 }
