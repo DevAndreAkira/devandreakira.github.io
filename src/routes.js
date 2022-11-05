@@ -18,7 +18,7 @@ const Router = () => {
             <Routes>
                 <Route path='*' element={<><div className='d-flex justify-content-center align-items-center flex-column' style={{ width: '100%', height: '100%' }}>
                     <h1 style={{ color: "#05c3c3" }}>Not Found 404</h1><img style={{ width: '250px', height: '250px' }} src={logo} alt="" /><br /><h2>Página não encontrada</h2>
-                    <Link className="navbar-brand nav-link d-flex justify-content-center align-items-center"  style={{background: 'var(--secondary-color)', width: '300px'}} to="/portfolio_devandreakira">
+                    <Link className="navbar-brand nav-link d-flex justify-content-center align-items-center"  style={{background: 'var(--secondary-color)', width: '300px'}} to="/">
                         <p className='py-2'>Voltar</p>
                     </Link>
                 </div></>} />
