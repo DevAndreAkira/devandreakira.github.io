@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.34267388.css",
-    "main.js": "/static/js/main.e1190ae2.js",
+    "main.js": "/static/js/main.ff47405a.js",
     "static/media/bg.webp": "/static/media/bg.9567fd657a18f59ffcbf.webp",
     "static/media/soccer.png": "/static/media/soccer.0d6e3ee1a96c90163f1f.png",
     "static/media/roma.webp": "/static/media/roma.9018c3b15ca9a1cff820.webp",
@@ -71,10 +71,10 @@
     "index.html": "/index.html",
     "static/media/tree.svg": "/static/media/tree.16612405db6556ac86ab48c3a1af3fec.svg",
     "main.34267388.css.map": "/static/css/main.34267388.css.map",
-    "main.e1190ae2.js.map": "/static/js/main.e1190ae2.js.map"
+    "main.ff47405a.js.map": "/static/js/main.ff47405a.js.map"
   },
   "entrypoints": [
     "static/css/main.34267388.css",
-    "static/js/main.e1190ae2.js"
+    "static/js/main.ff47405a.js"
   ]
 }
