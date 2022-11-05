@@ -8,12 +8,12 @@ import { Carousel } from 'react-bootstrap';
 // import eua from '../../assets/img/eua.png';
 import Redes from "../../components/redesSociais";
 
-import roma from '../../assets/img/roma.webp';
-import a3 from '../../assets/img/a3tech.webp';
-import labu from '../../assets/img/labufalina.webp';
-import we from '../../assets/img/wefood.webp';
-import remove from '../../assets/img/remove-dotspace-min.webp';
-import cloudy from '../../assets/img/cloudy.webp';
+import roma from '../../assets/img/roma.jpeg';
+import a3 from '../../assets/img/a3tech.jpeg';
+import labu from '../../assets/img/labufalina.jpeg';
+import we from '../../assets/img/wefood.jpeg';
+import remove from '../../assets/img/remove-dotspace-min.jpeg';
+import cloudy from '../../assets/img/cloudy.jpeg';
 import anfarmag from '../../assets/img/anfarmag.png';
 import bunge from '../../assets/img/bunge1.jpg';
 import interativa from '../../assets/img/interativa.jpg';
