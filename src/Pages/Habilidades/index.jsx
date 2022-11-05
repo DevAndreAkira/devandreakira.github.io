@@ -3,7 +3,7 @@ import { React } from 'react';
 import Header from '../../components/Header';
 import i18n from '../../components/translate/i18n';
 import { Tooltip, OverlayTrigger } from 'react-bootstrap';
-import { TiHtml5 } from "react-icons/ti";
+// import { TiHtml5 } from "react-icons/ti";
 // import { FaDownload } from "react-icons/fa";
 
 // import brasil from '../../assets/img/brasil.png';
@@ -45,12 +45,20 @@ const Habilidades = () => {
 
     const I18N_STORAGE_KEY = 'i18nextLng'
 
-    const handleSelectChange = event => {
+    const handleSelectChange1 = event => {
         localStorage.setItem(
             I18N_STORAGE_KEY,
-            event.target.className
+            "en-US"
         )
-        window.location.reload();
+        window.location.reload()
+    }
+
+    const handleSelectChange2 = event => {
+        localStorage.setItem(
+            I18N_STORAGE_KEY,
+            "pt-BR"
+        )
+        window.location.reload()
     }
 
     window.onload = () => {
@@ -120,7 +128,7 @@ const Habilidades = () => {
                     <div className="titulo">
                         <h1 className='titles text-white pt-3 pb-3 pb-md-0 h3'>{i18n.t('titles.phabilidades')}</h1>
                         <div className='mb-4 idiomas'>
-                            <button type="button" className="" id='btn_small' onClick={handleSelectChange} aria-label="Button">
+                            <button type="button" className="" id='btn_small' onClick={handleSelectChange1} aria-label="Button">
                                 <div id="container_icon_flag">
                                     <div class="en-US">
                                         <div id="squad_eua">
@@ -137,7 +145,7 @@ const Habilidades = () => {
                                 </div>
                                 {/* <img loading="lazy" title="Idioma inglês" src={eua} alt="Idioma - Inglês" className="en-US" width="45" height="45" /> */}
                             </button>
-                            <button type="button" className="" id='btn_small' onClick={handleSelectChange} aria-label="Button">
+                            <button type="button" className="" id='btn_small' onClick={handleSelectChange2} aria-label="Button">
                                 <div id="container_icon_flag">
                                     <div class="pt-BR">
                                         <div id="gold_br">

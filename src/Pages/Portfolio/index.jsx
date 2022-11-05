@@ -11,7 +11,7 @@ import Redes from "../../components/redesSociais";
 import roma from '../../assets/img/roma.jpeg';
 import a3 from '../../assets/img/a3tech.jpeg';
 import labu from '../../assets/img/labufalina.jpeg';
-import we from '../../assets/img/wefood.jpeg';
+// import we from '../../assets/img/wefood.jpeg';
 import remove from '../../assets/img/remove-dotspace-min.jpeg';
 import cloudy from '../../assets/img/cloudy.jpeg';
 import anfarmag from '../../assets/img/anfarmag.png';
@@ -21,7 +21,7 @@ import interativa from '../../assets/img/interativa.jpg';
 import roma2 from '../../assets/img/roma2.jpg';
 import a32 from '../../assets/img/a3tech2.jpg';
 import labu2 from '../../assets/img/la2.jpg';
-import we2 from '../../assets/img/we2.jpg';
+// import we2 from '../../assets/img/we2.jpg';
 import remove2 from '../../assets/img/dot2.jpg';
 import cloudy2 from '../../assets/img/clo2.jpg';
 import anfarmag2 from '../../assets/img/anfarmag2.jpg';
@@ -31,7 +31,7 @@ import interativa2 from '../../assets/img/interativa2.jpg';
 import roma3 from '../../assets/img/roma3.jpg';
 import a33 from '../../assets/img/a3tech3.jpg';
 import labu3 from '../../assets/img/la3.jpg';
-import we3 from '../../assets/img/we3.jpg';
+// import we3 from '../../assets/img/we3.jpg';
 import remove3 from '../../assets/img/dot3.jpg';
 import cloudy3 from '../../assets/img/clo3.jpg';
 import anfarmag3 from '../../assets/img/anfarmag3.jpg';
@@ -69,12 +69,20 @@ const Portfolio = () => {
 
     const I18N_STORAGE_KEY = 'i18nextLng'
 
-    const handleSelectChange = event => {
+    const handleSelectChange1 = event => {
         localStorage.setItem(
             I18N_STORAGE_KEY,
-            event.target.className
+            "en-US"
         )
-        window.location.reload();
+        window.location.reload()
+    }
+
+    const handleSelectChange2 = event => {
+        localStorage.setItem(
+            I18N_STORAGE_KEY,
+            "pt-BR"
+        )
+        window.location.reload()
     }
 
     window.onload = () => {
@@ -176,7 +184,7 @@ const Portfolio = () => {
                     <div className="titulo">
                         <h1 className='titles text-white pt-3 pb-3 pb-md-0 h3'>{i18n.t('projetos.titulo')}</h1>
                         <div className='mb-4 idiomas'>
-                            <button type="button" className="" id='btn_small' onClick={handleSelectChange} aria-label="Button">
+                            <button type="button" className="" id='btn_small' onClick={handleSelectChange1} aria-label="Button">
                                 <div id="container_icon_flag">
                                     <div className="en-US">
                                         <div id="squad_eua">
@@ -193,7 +201,7 @@ const Portfolio = () => {
                                 </div>
                                 {/* <img loading="lazy" title="Idioma inglês" src={eua} alt="Idioma - Inglês" className="en-US" width="45" height="45" /> */}
                             </button>
-                            <button type="button" className="" id='btn_small' onClick={handleSelectChange} aria-label="Button">
+                            <button type="button" className="" id='btn_small' onClick={handleSelectChange2} aria-label="Button">
                                 <div id="container_icon_flag">
                                     <div className="pt-BR">
                                         <div id="gold_br">

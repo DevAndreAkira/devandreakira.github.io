@@ -17,12 +17,20 @@ const Historico = () => {
 
     const I18N_STORAGE_KEY = 'i18nextLng'
 
-    const handleSelectChange = event => {
+    const handleSelectChange1 = event => {
         localStorage.setItem(
             I18N_STORAGE_KEY,
-            event.target.className
+            "en-US"
         )
-        window.location.reload();
+        window.location.reload()
+    }
+
+    const handleSelectChange2 = event => {
+        localStorage.setItem(
+            I18N_STORAGE_KEY,
+            "pt-BR"
+        )
+        window.location.reload()
     }
 
     var cardsInfos = {
@@ -67,7 +75,7 @@ const Historico = () => {
                         <div className="titulo">
                             <h1 className='titles text-white pt-3 pb-3 pb-md-0 h3'>{i18n.t('titles.phistorico')}</h1>
                             <div className='mb-4 idiomas'>
-                                <button type="button" className="" id='btn_small' onClick={handleSelectChange}  aria-label="Button">
+                                <button type="button" className="" id='btn_small' onClick={handleSelectChange1}  aria-label="Button">
                                     <div id="container_icon_flag">
                                         <div class="en-US">
                                             <div id="squad_eua">
@@ -84,7 +92,7 @@ const Historico = () => {
                                     </div>
                                     {/* <img loading="lazy" title="Idioma inglês" src={eua} alt="Idioma - Inglês" className="en-US" width="45" height="45" /> */}
                                 </button>
-                                <button type="button" className="" id='btn_small' onClick={handleSelectChange}  aria-label="Button">
+                                <button type="button" className="" id='btn_small' onClick={handleSelectChange2}  aria-label="Button">
                                     <div id="container_icon_flag">
                                         <div class="pt-BR">
                                             <div id="gold_br">
