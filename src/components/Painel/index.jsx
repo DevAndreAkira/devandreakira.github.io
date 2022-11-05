@@ -92,7 +92,7 @@ const Painel = () => {
                             <div style={{ position: 'relative;' }} className="m-auto">
                                 <div className='position-relative'>
                                     <h1 className='mt-4 azul painel_nome'>{i18n.t('dev.front')}</h1>
-                                    <img src={sazonImages([logoPascoa, logoPascoa, logoBruxo, logoNatal], logo)} alt="Dev André Akira" width="250" height="250" className="logo img-fluid" title="DevAndreAkira" />
+                                    <img src={sazonImages([logoPascoa, logoPascoa, logoBruxo, logoNatal], logo)} alt="Dev André Akira" className="logo img-fluid" title="DevAndreAkira" />
                                     <img loading="lazy" title="Ovo" width="auto" height="auto" src={egg} alt="egg" className='ovo' onClick={() => {
                                         document.querySelector("img.ovo").classList.add("animate__animated", "animate__headShake")
                                         setTimeout(function () {
