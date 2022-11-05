@@ -79,7 +79,6 @@ ul {
 .navbar {
     height: 100%;
     justify-content: unset !important;
-    // min-width: 170px;
 }
 
 .navbar {
@@ -227,10 +226,6 @@ div.none,
 
 @media (min-width: 992px) {
 
-    // .navbar-light .navbar-brand{
-    //     display: none;
-    // }
-
     #navbarSupportedContent>ul {
         width: 80%;
         margin: 8px !important;
@@ -247,9 +242,6 @@ div.none,
 
 @media (max-width: 991px) {
 
-    // #root{
-    //     height: 100%;
-    // }
     .navbar-light .navbar-brand {
         display: block;
     }
@@ -261,7 +253,6 @@ div.none,
     header {
         position: absolute !important;
         z-index: 99 !important;
-        // width: 250px !important;
         height: min-content;
     }
 
@@ -272,9 +263,6 @@ div.none,
         align-items: center;
     }
 
-    // .sobre #navbarSupportedContent > ul > li:nth-child(1) img {
-    //     margin-left: 10px;
-    // }
     #navbarSupportedContent>ul>li:nth-child(1) img {
         width: 30px;
         height: 30px;

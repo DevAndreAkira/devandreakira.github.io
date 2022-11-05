@@ -174,16 +174,11 @@ p.grey,
     left: 50vw;
 }
 
-// .container-fluid {
-//     padding: unset !important;
-// }
-
 div.none,
 .none {
     display: none !important;
 }
 
-// Progressive Circle
 .progress1 {
     position: relative;
     margin: 4px;
@@ -192,11 +187,10 @@ div.none,
 }
 
 .barOverflow {
-    /* Wraps the rotating .bar */
     position: relative;
     width: 180px;
-    height: 90px; /* Half circle (overflow) */
-    margin-bottom: -14px; /* bring the numbers up */
+    height: 90px;
+    margin-bottom: -14px;
     overflow: hidden;
 }
 
