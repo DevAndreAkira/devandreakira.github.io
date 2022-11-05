@@ -51,7 +51,7 @@ const Header = () => {
         <>
             <header className="col-md-2 header" >
                 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='slide'>
-                    <Container>
+                    <Container className='container-fluid'>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="mx-auto">
