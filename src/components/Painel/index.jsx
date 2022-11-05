@@ -61,6 +61,14 @@ const Painel = () => {
         }
     }
 
+    const meeImg = new Image();
+    const img = document.querySelector("#navbarSupportedContent > div > div.position-relative > img.logo");
+
+    meeImg.onload = function () {
+        img.innerHTML += `<img src"${meeImg.src}" />`;
+    }
+    meeImg.src = '../../assets/img/mee.png';
+
     // sazonImages([logo, logoNatal, logoBruxo])
 
     return (
