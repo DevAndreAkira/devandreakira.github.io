@@ -1,0 +1,7 @@
+Comandos que esqueço:
+
+
+npm run deploy
+
+/* Sobe o código para o server*/
+

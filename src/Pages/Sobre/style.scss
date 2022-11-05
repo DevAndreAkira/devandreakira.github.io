@@ -1,0 +1,374 @@
+
+main {
+    border-radius: 20px;
+    text-align: left;
+    background: var(--bg1);
+    box-shadow: 0 8px 32px 0 var(--shadow);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid var(--border-primary);
+}
+
+main div ul li a svg {
+    font-size: 20px;
+}
+
+main div ul li {
+    margin-right: 5px;
+}
+
+.icon-card {
+    margin: 0rem 1rem;
+}
+
+h2 {
+    // font-weight: bold !important;
+    font-size: 20px;
+    padding: 1rem 0;
+    color: #fff;
+}
+
+h5 {
+    font-weight: bold !important;
+    color: #fff !important;
+}
+
+p.espaco {
+    font-weight: 600 !important;
+    margin-bottom: 0 !important;
+    margin-top: 0.5rem;
+}
+
+.card-body {
+    padding-bottom: unset !important;
+}
+
+.bg-azul-claro {
+    background-color: var(--primary-color)  !important;
+}
+
+.progress {
+    height: 0.5rem !important;
+    background-color: var(--secondary-color)  !important;
+}
+
+.circle {
+    fill: var(--secondary-color);
+}
+
+.card {
+    background: var(--bg2) !important;
+    border: solid 1px transparent;
+    margin: 0.5rem 0;
+    border-radius: 10px;
+}
+
+.sobre .card:hover {
+    transition: 0.5s;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid #05c3c32e;
+
+    .fa-ellipsis-v {
+        color: #fff;
+        transition: 0.5s;
+    }
+}
+
+button.btn_small {
+    background: #dff6fe;
+    color: var(--primary-color)  !important;
+    font-size: 12px !important;
+    height: min-content !important;
+    border-radius: 100vw;
+    padding: 5px 15px;
+    font-weight: 600;
+    border: unset;
+}
+
+button.btn_arm {
+    color: #fff !important;
+    font-size: 12px !important;
+    height: min-content !important;
+    border-radius: 100vw;
+    padding: 10px 20px;
+    font-weight: 600;
+    border: unset;
+}
+
+button.btn_arm.edit {
+    background: var(--primary-color);
+}
+
+button.btn_arm.up {
+    background: var(--secondary-color);
+}
+
+button.btn_small:hover {
+    background-color: #fff;
+}
+
+.upgrade {
+    font-family: "Poppins", sans-serif;
+    background: var(--primary-color);
+    padding: 15px;
+    border-radius: 15px;
+    margin-right: 1rem;
+}
+
+.upgrade-text {
+    font-size: 12px;
+    color: #fff;
+}
+
+.btn-upgrade {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #fff;
+    border-radius: 7px;
+    border: unset;
+    padding: 10px;
+    color: var(--primary-color);
+}
+
+.form-control {
+    padding: 7px 40px !important;
+    border-radius: 12px !important;
+    background-color: transparent !important;
+    border: solid #c7daed 1px !important;
+    color: var(--quinary-color)  !important;
+}
+
+.form-control::placeholder {
+    color: var(--quinary-color)  !important;
+}
+
+.fa-search {
+    color: var(--quinary-color);
+}
+
+.titulo {
+    margin-top: 20px !important;
+}
+
+.fa-ellipsis-v,
+.fa-ellipsis-h {
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+p.grey,
+.fa.grey {
+    color: var(--secondary-color);
+}
+
+.item-recente {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 10px 0;
+}
+
+.btn_vejamais {
+    position: absolute;
+    left: 50vw;
+}
+
+.container-fluid {
+    padding: unset !important;
+}
+
+div.none,
+.none {
+    display: none !important;
+}
+
+// Progressive Circle
+.progress1 {
+    position: relative;
+    margin: 4px;
+    float: left;
+    text-align: center !important;
+}
+
+.barOverflow {
+    /* Wraps the rotating .bar */
+    position: relative;
+    width: 180px;
+    height: 90px;
+    /* Half circle (overflow) */
+    margin-bottom: -14px;
+    /* bring the numbers up */
+    overflow: hidden;
+}
+
+.bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 40px solid var(--secondary-color);
+    border-bottom-color: var(--primary-color);
+    border-right-color: var(--primary-color);
+}
+
+.sobre {
+    width: 100%;
+    height: auto;
+    border-radius: 50vw;
+}
+
+.neoBtn {
+    border-radius: 50px;
+    background: transparent;
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+    border-color: var(--primary-color);
+}
+
+.neoBtn:active {
+    svg {
+        font-size: 42px !important;
+    }
+
+    border-color: var(--primary-color);
+}
+
+main div div button svg {
+    font-size: 50px;
+    fill: var(--primary-color);
+}
+
+.modal-content {
+    background: var(--bg2) !important;
+    border: 1px solid var(--border-primary);
+    color: #fff;
+
+    .btn-close {
+        background: transparent url(../../assets/img/x.png) center/2.5em auto no-repeat;
+    }
+
+    .modal-footer {
+        border: unset;
+    }
+
+    .btn-secondary {
+        color: var(--tertiary-color)  !important;
+        background: var(--primary-color);
+        border: 1px transparent solid;
+    }
+
+    .btn-secondary:hover {
+        color: var(--primary-color)  !important;
+        background: var(--tertiary-color);
+        border: var(--primary-color) 1px solid;
+    }
+}
+
+main div div button.btn_small {
+    padding: 5px !important;
+    margin: 0 3px;
+}
+
+@media(max-width:991px) {
+    .neoBtn {
+        width: 70px;
+        height: 70px;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: none !important;
+    }
+
+    .navbar {
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .container-fluid {
+        min-width: 200px;
+    }
+}
+
+@media(max-width: 767px) {
+    .sobre {
+        display: none;
+    }
+
+    .idiomas {
+        min-width: 126px;
+    }
+
+    .navbar,
+    header {
+        height: auto !important;
+    }
+}
+
+@media(max-width: 464px) {
+
+    .titulo {
+        display: flex !important;
+        flex-direction: column-reverse;
+        align-items: flex-start !important;
+    }
+
+    .titles,
+    .modal-title,
+    .card-title {
+        margin: 0 !important;
+        font-size: 18px !important;
+    }
+
+    main p,
+    .modal-body {
+        font-size: 13px;
+    }
+
+    main div ul li {
+        margin-right: 0;
+    }
+
+    div>main>div>form.d-flex {
+        display: none !important;
+    }
+
+    main div div button svg {
+        font-size: 35px;
+    }
+
+    main button:nth-child(n)>img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .neoBtn {
+        width: 50px;
+        height: 50px;
+        margin-right: .5rem;
+    }
+
+    main ul {
+        position: relative;
+        left: 5%;
+        bottom: 14px;
+    }
+
+    header nav div.container-fluid button {
+        margin: 5px;
+    }
+
+    .container-fluid {
+        min-width: auto;
+    }
+
+    main div ul li a svg {
+        font-size: 16px;
+    }
+}
