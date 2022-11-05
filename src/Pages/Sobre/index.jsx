@@ -58,16 +58,16 @@ const Home = () => {
                         <div className="titulo">
                             <h1 className='titles text-white pt-3 pb-3 pb-md-0 h3'>{i18n.t('titles.psobre')}</h1>
                             <div>
-                                <button type="button" className="btn btn_small" onClick={handleSelectChange}  aria-label="Button">
-                                    <div class="container_icon_flag">
+                                <button type="button" className="" id='btn_small' onClick={handleSelectChange}  aria-label="Button">
+                                    <div id="container_icon_flag">
                                         <div class="en-US">
-                                            <div class="squad_eua">
+                                            <div id="squad_eua">
                                             </div>
-                                            <div class="star1">
+                                            <div id="star1">
                                             </div>
-                                            <div class="star2">
+                                            <div id="star2">
                                             </div>
-                                            <div class="star3">
+                                            <div id="star3">
                                             </div>
                                             <div class="star4">
                                             </div>
@@ -75,11 +75,11 @@ const Home = () => {
                                     </div>
                                     {/* <img loading="lazy" title="Idioma inglês" src={eua} alt="Idioma - Inglês" className="en-US" width="45" height="45" /> */}
                                 </button>
-                                <button type="button" className="btn btn_small" onClick={handleSelectChange}  aria-label="Button">
-                                    <div class="container_icon_flag">
+                                <button type="button" className="" id='btn_small' onClick={handleSelectChange}  aria-label="Button">
+                                    <div id="container_icon_flag">
                                         <div class="pt-BR">
-                                            <div class="gold_br">
-                                                <div class="circle_blue_br">
+                                            <div id="gold_br">
+                                                <div id="circle_blue_br">
                                                 </div>
                                             </div>
                                         </div>

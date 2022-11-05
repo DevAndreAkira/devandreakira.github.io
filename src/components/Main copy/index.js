@@ -34,7 +34,7 @@ const Main = () => {
             <section>
                 <div className="d-flex justify-content-between align-items-center titulo">
                     <h2>Minhas Pastas</h2>
-                    <button type="button" className="btn btn_small">Detalhes</button>
+                    <button type="button" className="" id='btn_small'>Detalhes</button>
                 </div>
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                     <div className="col">
@@ -137,7 +137,7 @@ const Main = () => {
             {/* <section>
                 <div className="d-flex justify-content-between align-items-center titulo">
                     <h2>Arquivos Recentes</h2>
-                    <button type="button" className="btn btn_small">Detalhes</button>
+                    <button type="button" className="" id='btn_small'>Detalhes</button>
                 </div>
                 <div className="d-flex justify-content-between align-items-center item-recente none">
                     <div className="d-flex justify-content-between align-items-center">

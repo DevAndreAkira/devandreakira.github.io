@@ -76,7 +76,7 @@ p.espaco {
     }
 }
 
-button.btn_small {
+button#btn_small {
     background: #dff6fe;
     color: var(--primary-color)  !important;
     font-size: 12px !important;
@@ -105,7 +105,7 @@ button.btn_arm.up {
     background: var(--secondary-color);
 }
 
-button.btn_small:hover {
+button#btn_small:hover {
     background-color: #fff;
 }
 
@@ -271,7 +271,7 @@ main div div button svg {
     }
 }
 
-main div div button.btn_small {
+main div div button#btn_small {
     padding: 5px !important;
     margin: 0 3px;
 }
