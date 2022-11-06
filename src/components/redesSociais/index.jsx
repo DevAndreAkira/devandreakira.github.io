@@ -12,7 +12,7 @@ const RedesSociais = () => {
                     <input className="form-control me-2" type="search" placeholder={i18n.t('buscar.buscar')} aria-label="Search" />
                     <button className="btn position-absolute" type="submit"><FaSearch style={{ color: "#A4B6C9" }} /></button>
                 </form>
-                <ul className="d-flex align-items-center">
+                <ul className="d-flex align-items-center mobile_social">
                     <li>
                         <a href="https://www.linkedin.com/in/andr%C3%A9-akira-kusaba-257510138/" className="nav-link" aria-label="Linkedin" target="_blank" rel="noreferrer">
                             <FaLinkedinIn />
