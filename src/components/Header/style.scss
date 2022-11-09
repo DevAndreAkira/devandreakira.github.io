@@ -328,7 +328,7 @@ div.none,
         margin-right: 5px;
     }
 
-    .mobile_social{
+    .mobile_social {
         margin-left: auto !important;
     }
 }
@@ -362,5 +362,11 @@ div.none,
     to {
         opacity: 1;
         transform: translateX(0);
+    }
+}
+
+@media(min-width:1120px) {
+    #responsive-navbar-nav>div {
+        margin: 0 2rem !important;
     }
 }
