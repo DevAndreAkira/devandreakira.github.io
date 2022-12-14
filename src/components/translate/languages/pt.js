@@ -67,7 +67,7 @@ const messages = {
                 game2: "Arcane 5",
                 game3: "Game Memory",
                 game4: "Soccer Goal",
-                traducao: "Traduções",
+                traducao: "Geradores",
             },
             contato: {
                 titulo: "Curtiu? Entre em contato",

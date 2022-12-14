@@ -103,10 +103,28 @@ h2 {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
 
-.modal-content{
+.modal-content {
     color: #fff !important;
 }
 
-header > nav{
+header>nav {
     align-items: flex-start !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: var(--tertiary-color);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(255,255,255);
+background: linear-gradient(10deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    border-radius: 10px;
 }
