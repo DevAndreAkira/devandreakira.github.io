@@ -173,10 +173,10 @@ const Hobbies = () => {
                                 {Array.from({ length: totalTraducoes }).map((_, idx) => (
                                     <Col>
                                         <Card className="">
-                                            <a href="/">
+                                            <a href={hobbies.urlTrans[idx]} target="_blank" rel="noreferrer" className=''>
                                                 <Card.Img variant="bottom" src={hobbies.imgTrans[idx]} width="300" height="200" alt={hobbies.gameTrans[idx]} />
                                                 <Card.Body>
-                                                    <Card.Title>{hobbies.gameTrans[idx]} <CgWindows /></Card.Title>
+                                                    <Card.Title>{hobbies.gameTrans[idx]} <CgBrowser /></Card.Title>
                                                     <Card.Title className='subTitle-card'>2022</Card.Title>
                                                     {/* <Card.Text>
                                             {i18n.t('hobbies.descTrans1')}
