@@ -145,8 +145,8 @@ const Historico = () => {
                                                         {
                                                             (cardsInfos.quantidadeNum[idx] >= 12 ?
                                                                 Math.round(cardsInfos.quantidadeNum[idx] / 12) + (Math.round(cardsInfos.quantidadeNum[idx] / 12) > 1
-                                                                    ? " " + i18n.t('duracao.duracaoTempo') + ((Number(localStorage.getItem('totalTime') / 12 > 1)) ? 's ' : "") + (Math.round(cardsInfos.quantidadeNum[idx] % 12) === 0 ? '' : cardsInfos.quantidadeNum[idx] % 12) :
-                                                                    " " + i18n.t('duracao.duracaoTempo') + ((Number(localStorage.getItem('totalTime') / 12 > 1)) ? 's ' : "") + (Math.round(cardsInfos.quantidadeNum[idx] % 12) === 0 ? '' : cardsInfos.quantidadeNum[idx] % 12)) :
+                                                                    ? " " + i18n.t('duracao.duracaoTempo') + ((Number(localStorage.getItem('totalTime') / 12 > 1)) ? 's ' : " ") + (Math.round(cardsInfos.quantidadeNum[idx] % 12) === 0 ? '' : cardsInfos.quantidadeNum[idx] % 12) :
+                                                                    " " + i18n.t('duracao.duracaoTempo') + ((Math.round(cardsInfos.quantidadeNum[idx] / 12) > 1) ? 's ' : " ") + (Math.round(cardsInfos.quantidadeNum[idx] % 12) === 0 ? '' : cardsInfos.quantidadeNum[idx] % 12)) :
                                                                 cardsInfos.quantidadeNum[idx])
                                                         } 
                                                     </span>
