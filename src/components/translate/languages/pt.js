@@ -50,13 +50,33 @@ const messages = {
                 cargo2: 'Desenvolvedor Web',
                 cargo3: 'Desenvolvedor Web Designer',
                 cargo4: 'Desenvolvedor Web',
+                cargo5: 'Desenvolvedor Front-end',
             },
             duracao: {
-                duracao1: '2 meses',
-                duracao2: '1 ano e 4 meses',
-                duracao3: '4 meses',
-                duracao4: '2 meses'
+                duracao1: {
+                    num: 2,
+                    time: 'meses'
+                },
+                duracao2: {
+                    num: 16,
+                    time: 'meses'
+                },
+                duracao3: {
+                    num: 4,
+                    time: 'meses'
+                },
+                duracao4: {
+                    num: 2,
+                    time: 'meses'
+                },
+                duracao5: {
+                    num: 12,
+                    time: '',
+                },
+                status: 'Trabalhando atualmente ✔️',
+                duracaoTempo: "ano",
             },
+            tempoExp: "Tempo de experiência: ",
             projetos: {
                 titulo: "Trabalhos concluídos",
                 botao: "Visite aqui"
@@ -68,6 +88,7 @@ const messages = {
                 game3: "Game Memory",
                 game4: "Soccer Goal",
                 traducao: "Geradores",
+                generator1: "Gerador Commit Plugin para WordPress",
             },
             contato: {
                 titulo: "Curtiu? Entre em contato",

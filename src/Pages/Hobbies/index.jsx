@@ -13,6 +13,7 @@ import box from '../../assets/img/front-box.png';
 import arcane from '../../assets/img/arcane.png';
 import memory from '../../assets/img/memory.png';
 import soccer from '../../assets/img/soccer.png';
+import noImage from '../../assets/img/no_image.png';
 // import divinity from '../../assets/img/divinity.png';
 
 // import divTrans from '../../assets/downloads/Divinity_Fatum_-_PT_BR.zip'
@@ -94,13 +95,13 @@ const Hobbies = () => {
             'https://devandreakira.github.io/soccer_pixijs/'
         ],
         gameTrans: [
-            // "Divinity Fatum PT-BR"
+            `${i18n.t('hobbies.generator1')}`,
         ],
         imgTrans: [
-            // divinity
+            noImage
         ],
         urlTrans: [
-            // ""
+            'https://devandreakira.github.io/generator_plugin_commit/'
         ]
     }
 

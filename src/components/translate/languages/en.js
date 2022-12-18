@@ -57,6 +57,27 @@ const messages = {
                 duracao3: '4 months',
                 duracao4: '2 months'
             },
+            duracao: {
+                duracao1: {
+                    num: 2,
+                    time: 'months'
+                },
+                duracao2: {
+                    num: 16,
+                    time: 'months'
+                },
+                duracao3: {
+                    num: 4,
+                    time: 'months'
+                },
+                duracao4: {
+                    num: 2,
+                    time: 'months'
+                },
+                status: 'Currently working ✔️',
+                duracaoTempo: "year",
+            },
+            tempoExp: "Time experience: ",
             projetos: {
                 titulo: "Projects completed",
                 botao: "Visit here"
@@ -67,7 +88,8 @@ const messages = {
                 game2: "Arcane 5",
                 game3: "Game Memory",
                 game4: "Soccer Goal",
-                traducao: "Translations",
+                traducao: "Generators",
+                generator1: "Generator Commit Plugin for WordPress",
             },
             contato: {
                 titulo: "Contact me",
