@@ -50,6 +50,7 @@ const messages = {
                 cargo2: 'Web developer',
                 cargo3: 'Web Designer Developer',
                 cargo4: 'Web developer',
+                cargo5: 'Front-end Developer',
             },
             duracao: {
                 duracao1: '2 months',
