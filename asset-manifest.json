@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.50d9aab4.css",
-    "main.js": "/static/js/main.3373d193.js",
+    "main.js": "/static/js/main.352e4450.js",
     "static/media/bg.webp": "/static/media/bg.9567fd657a18f59ffcbf.webp",
     "static/media/soccer.png": "/static/media/soccer.0d6e3ee1a96c90163f1f.png",
     "static/media/anfarmag.png": "/static/media/anfarmag.3979fe611e552a9bffe2.png",
@@ -45,7 +45,7 @@
     "static/media/mySql.png": "/static/media/mySql.3b5ae31852f1ef23d272.png",
     "static/media/html.png": "/static/media/html.10c000450bc67e537356.png",
     "static/media/xd.png": "/static/media/xd.dceed75861929d54dacf.png",
-    "static/media/front-box.png": "/static/media/front-box.c4d8d4facf5501b0cbed.png",
+    "static/media/front-box.png": "/static/media/front-box.4adb06639b6cc871be37.png",
     "static/media/seleniumIde.png": "/static/media/seleniumIde.2b24040b39f777a11c7c.png",
     "static/media/github.png": "/static/media/github.223205ce8f199d5a81a1.png",
     "static/media/ps.png": "/static/media/ps.28bcade4d02391c9bd9e.png",
@@ -68,10 +68,10 @@
     "index.html": "/index.html",
     "static/media/tree.svg": "/static/media/tree.16612405db6556ac86ab48c3a1af3fec.svg",
     "main.50d9aab4.css.map": "/static/css/main.50d9aab4.css.map",
-    "main.3373d193.js.map": "/static/js/main.3373d193.js.map"
+    "main.352e4450.js.map": "/static/js/main.352e4450.js.map"
   },
   "entrypoints": [
     "static/css/main.50d9aab4.css",
-    "static/js/main.3373d193.js"
+    "static/js/main.352e4450.js"
   ]
 }
