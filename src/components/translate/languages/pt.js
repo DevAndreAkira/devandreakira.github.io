@@ -84,7 +84,7 @@ const messages = {
             hobbies: {
                 titulo: "Hobbies e passatempos",
                 game1: "Front-box",
-                game2: "Arcane 5",
+                game2: "Jo-ken-po RPG",
                 game3: "Game Memory",
                 game4: "Soccer Goal",
                 traducao: "Geradores",
