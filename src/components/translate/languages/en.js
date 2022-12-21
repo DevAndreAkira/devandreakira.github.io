@@ -15,7 +15,7 @@ const messages = {
                 historico: 'History',
                 habilidades: "Skills",
                 portfolio: "Portfolio",
-                hobbies: "Hobbies and Leisure",
+                hobbies: "Hobbies",
                 contato: "Contact"
             },
             titles: {
@@ -84,7 +84,7 @@ const messages = {
                 botao: "Visit here"
             },
             hobbies: {
-                titulo: "Hobbies",
+                titulo: "Hobbies and leisure",
                 game1: "Front-box",
                 game2: "Jo-ken-po RPG",
                 game3: "Game Memory",
