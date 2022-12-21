@@ -84,7 +84,7 @@ const messages = {
                 botao: "Visit here"
             },
             hobbies: {
-                titulo: "Hobbies and leisure",
+                titulo: "Hobbies",
                 game1: "Front-box",
                 game2: "Jo-ken-po RPG",
                 game3: "Game Memory",
