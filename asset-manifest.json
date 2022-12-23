@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.50d9aab4.css",
-    "main.js": "/static/js/main.ff6096a6.js",
+    "main.js": "/static/js/main.e7f9041a.js",
     "static/media/bg.webp": "/static/media/bg.9567fd657a18f59ffcbf.webp",
     "static/media/soccer.png": "/static/media/soccer.0d6e3ee1a96c90163f1f.png",
     "static/media/anfarmag.png": "/static/media/anfarmag.3979fe611e552a9bffe2.png",
-    "static/media/arcane.png": "/static/media/arcane.2400456aeed3a92ff4aa.png",
+    "static/media/arcane.png": "/static/media/arcane.962a34a409e64d4c8ea7.png",
     "static/media/interativa.jpg": "/static/media/interativa.0bda31f8ef82b9025882.jpg",
     "static/media/a3tech2.jpg": "/static/media/a3tech2.331eed165d1d6655ab87.jpg",
     "static/media/roma2.jpg": "/static/media/roma2.4dd511b386949bf49909.jpg",
@@ -68,10 +68,10 @@
     "index.html": "/index.html",
     "static/media/tree.svg": "/static/media/tree.16612405db6556ac86ab48c3a1af3fec.svg",
     "main.50d9aab4.css.map": "/static/css/main.50d9aab4.css.map",
-    "main.ff6096a6.js.map": "/static/js/main.ff6096a6.js.map"
+    "main.e7f9041a.js.map": "/static/js/main.e7f9041a.js.map"
   },
   "entrypoints": [
     "static/css/main.50d9aab4.css",
-    "static/js/main.ff6096a6.js"
+    "static/js/main.e7f9041a.js"
   ]
 }
