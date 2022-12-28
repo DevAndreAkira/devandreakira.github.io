@@ -14,6 +14,7 @@ import arcane from '../../assets/img/arcane.png';
 import memory from '../../assets/img/memory.png';
 import soccer from '../../assets/img/soccer.png';
 import noImage from '../../assets/img/no_image.png';
+import mega from '../../assets/img/mega.jpg';
 // import divinity from '../../assets/img/divinity.png';
 
 // import divTrans from '../../assets/downloads/Divinity_Fatum_-_PT_BR.zip'
@@ -96,11 +97,14 @@ const Hobbies = () => {
         ],
         gameTrans: [
             `${i18n.t('hobbies.generator1')}`,
+            `${i18n.t('hobbies.generator2')}`,
         ],
         imgTrans: [
-            noImage
+            mega,
+            noImage,
         ],
         urlTrans: [
+            'https://gerador-de-mega-senna.devandreakira.repl.co/',
             'https://devandreakira.github.io/generator_plugin_commit/'
         ]
     }
@@ -177,7 +181,7 @@ const Hobbies = () => {
                                                 <Card.Img variant="bottom" src={hobbies.imgTrans[idx]} width="300" height="200" alt={hobbies.gameTrans[idx]} />
                                                 <Card.Body>
                                                     <Card.Title>{hobbies.gameTrans[idx]} <CgBrowser /></Card.Title>
-                                                    <Card.Title className='subTitle-card'>2022</Card.Title>
+                                                    <Card.Title className='subTitle-card'>{hobbies.gameTrans[idx] === 'Números da Mega Senna' ? "2020" : "2022"}</Card.Title>
                                                     {/* <Card.Text>
                                             {i18n.t('hobbies.descTrans1')}
                                         </Card.Text>

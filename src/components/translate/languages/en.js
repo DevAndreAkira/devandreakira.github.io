@@ -90,7 +90,8 @@ const messages = {
                 game3: "Game Memory",
                 game4: "Soccer Goal",
                 traducao: "Generators",
-                generator1: "Generator Commit Plugin for WordPress",
+                generator1: "Mega Senna Numbers",
+                generator2: "Generator Commit Plugin WP",
             },
             contato: {
                 titulo: "Contact me",
