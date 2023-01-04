@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.849a0a2a.css",
-    "main.js": "/static/js/main.90002ce8.js",
+    "main.js": "/static/js/main.6b51e0f0.js",
     "static/media/bg.webp": "/static/media/bg.9567fd657a18f59ffcbf.webp",
     "static/media/soccer.png": "/static/media/soccer.0d6e3ee1a96c90163f1f.png",
     "static/media/anfarmag.png": "/static/media/anfarmag.3979fe611e552a9bffe2.png",
@@ -69,10 +69,10 @@
     "index.html": "/index.html",
     "static/media/tree.svg": "/static/media/tree.659b86d30665dd314efa7c69c90ce837.svg",
     "main.849a0a2a.css.map": "/static/css/main.849a0a2a.css.map",
-    "main.90002ce8.js.map": "/static/js/main.90002ce8.js.map"
+    "main.6b51e0f0.js.map": "/static/js/main.6b51e0f0.js.map"
   },
   "entrypoints": [
     "static/css/main.849a0a2a.css",
-    "static/js/main.90002ce8.js"
+    "static/js/main.6b51e0f0.js"
   ]
 }
