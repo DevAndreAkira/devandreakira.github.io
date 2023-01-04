@@ -48,7 +48,7 @@ function sazonDate(dados) {
   })
 }
 
-sazonDate("04/01-pascoa," +
+sazonDate("12/04-pascoa," +
   "21/09-arvore," +
   "31/10-bruxo," +
   "25/12-natal"
