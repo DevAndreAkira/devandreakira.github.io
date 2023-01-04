@@ -1,5 +1,9 @@
 const CACHE_NAME = "version-1"
-const urlsToCache = ["index.html", "offline.html"]
+const urlsToCache = [
+    "index.html", 
+    "/static/media/mee.1ad67ad9564530ec77a2.png",
+    "/static/media/bg.9567fd657a18f59ffcbf.webp"
+]
 
 this.addEventListener('install', (event) => {
     event.waitUntil(
