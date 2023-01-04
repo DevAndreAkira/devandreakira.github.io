@@ -1,7 +1,7 @@
 const CACHE_NAME = "version"
 const urlsToCache = ["index.html", "offline.html"]
 
-this.addEvvevntListener('install', (event) => {
+this.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open(CACHE_NAME).then((cache) => {
             console.log('Open cache!');
@@ -11,7 +11,7 @@ this.addEvvevntListener('install', (event) => {
 
 });
 
-this.addEvvevntListener('fetch', (event) => {
+this.addEventListener('fetch', (event) => {
     event.respondWith(
         caches.math(event.request).then((res) => {
             return fetch(event.request).cath(() => caches.math('offline.html'));
