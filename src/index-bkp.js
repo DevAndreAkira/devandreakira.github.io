@@ -35,24 +35,25 @@ function sazonDate(dados) {
   dados.forEach((e, i) => {
     let regex = e.match(/\d+/g);
     console.log("Dias e meses: ", regex);
+    console.log(regex.length);
     if (regex.length > 2) {
-      for (j = regex[0]; j <= regex[2]; j++) {
-        day.push(String(j));
-        // console.log("Days: " + j);
-        month.push(String(regex[1]));
-        console.log(month);
+      for (j = regex[0]; j < regex[2]; j++) {
+        day.push(regex[j.length > 1 ? j : "0" + j]);
+        console.log("Days: " + j);
+        regex[1] = (regex[1] - 1);
+        month.push(String(regex.length > 2 ? 1 && 3 : 1));
         let feriado = e.match(/\w+/g);
-        dados.push((j.length > 1 ? j : j) + "/" + regex[regex.length > 2 ? 1 && 3 : 1] + "-" + feriado[feriado.length - 1]);
+        dados.push((j.length > 1 ? j : "0" + j) + "/" + regex[regex.length > 2 ? 1 && 3 : 1] + "-" + feriado[feriado.length - 1]);
         holidays.push(feriado[feriado.length - 1]);
       }
-      dados.shift();
     }
     else {
       day.push(regex[regex.length > 2 ? 0 && 2 : 0]);
     }
-    console.log('Testes dias', day)
+    regex[1] = (regex[1] - 1);
     month.push(String(regex[regex.length > 2 ? 1 && 3 : 1]));
     let feriado = e.match(/\w+/g);
+    dados.push(feriado[feriado.length - 1]);
     console.log("Dados finais: " + dados);
     holidays.push(feriado[feriado.length - 1]);
     console.log("Feriado Final: " + feriado);
@@ -60,10 +61,10 @@ function sazonDate(dados) {
   let elementBody = document.querySelector("html");
   let now = new Date();
 
-  console.log(dados)
+  console.log("Entrando dados: " + dados)
   dados.forEach((e, i) => {
     localStorage.setItem("Holiday", holidays);
-    if (now.getDate() === parseInt(day[i]) && now.getMonth() === parseInt(month[i])) {
+    if (now.getDate() === parseInt(day[i]) && now.getMonth() === parseInt(month[i]) && now.getFullYear()) {
       elementBody.classList.add(holidays[i]);
     }
   })
@@ -82,7 +83,6 @@ function sazonColor(arraySazon = [], variable = [], color = []) {
     style: color
   }
   arraySazon.forEach((e, i) => {
-    // console.log("Teste sazon: ", e);
     if (document.querySelector("html").classList.value === arraySazon[i]) {
       variable.forEach((e, j) => {
         document.querySelector(':root').style.setProperty(objArrayholidays.input[j], objArrayholidays.style[j])

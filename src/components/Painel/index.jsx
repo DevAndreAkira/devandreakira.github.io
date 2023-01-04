@@ -139,7 +139,7 @@ const Painel = () => {
                                     </button>
                                     <button type="button" className="btn btn_small" onClick={handleSelectChange2} aria-label="Button">
                                         <div className="container_icon_flag">
-                                            <div class="pt-BR">
+                                            <div className="pt-BR">
                                                 <div className="gold_br">
                                                     <div className="circle_blue_br">
                                                     </div>
