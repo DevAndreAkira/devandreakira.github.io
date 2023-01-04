@@ -1,4 +1,4 @@
-const CACHE_NAME = "version"
+const CACHE_NAME = "version-1"
 const urlsToCache = ["index.html", "offline.html"]
 
 this.addEventListener('install', (event) => {
@@ -11,10 +11,10 @@ this.addEventListener('install', (event) => {
 
 });
 
-this.addEventListener('fetch', (event) => {
+this.addEventListener("fetch", (event) => {
     event.respondWith(
-        caches.math(event.request).then((res) => {
-            return fetch(event.request).cath(() => caches.math('offline.html'));
+        caches.match(event.request).then((res) => {
+            return fetch(event.request).catch(() => caches.match('offline.html'));
         })
     )
 
