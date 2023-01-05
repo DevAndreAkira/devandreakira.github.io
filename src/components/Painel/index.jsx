@@ -13,9 +13,9 @@ import logo from '../../assets/img/mee.png';
 import logoNatal from '../../assets/img/mee-natal.png';
 import logoBruxo from '../../assets/img/mee-bruxo.png';
 import logoPascoa from '../../assets/img/mee-egg.png';
-import egg from '../../assets/img/egg.svg';
-import abobora from '../../assets/img/abobora.svg';
-import tree from '../../assets/img/tree.svg';
+// import egg from '../../assets/img/egg.svg';
+// import abobora from '../../assets/img/abobora.svg';
+// import tree from '../../assets/img/tree.svg';
 
 // import brasil from '../../assets/img/brasil.png';
 // import eua from '../../assets/img/eua.png';
@@ -90,20 +90,20 @@ const Painel = () => {
                         </button>
                         <div className="collapse navbar-collapse flex-column" id="navbarSupportedContent">
                             <div style={{ position: 'relative;' }} className="m-auto">
-                                <div className='position-relative'>
+                                <main className='position-relative border-0 shadow-none bg-transparent text-center'>
                                     <h1 className='mt-4 azul painel_nome'>{i18n.t('dev.front')}</h1>
                                     <img src={sazonImages([logoPascoa, logoPascoa, logoBruxo, logoNatal], logo)} alt="DevAndreAkira" width="250" height="250" className="logo" title="DevAndreAkira" />
-                                    <img loading="lazy" title="Ovo" width="auto" height="auto" src={egg} alt="egg" className='ovo' onClick={() => {
+                                    {/* <img loading="lazy" title="Ovo" width="auto" height="auto" src={egg} alt="egg" className='ovo' onClick={() => {
                                         document.querySelector("img.ovo").classList.add("animate__animated", "animate__headShake")
                                         setTimeout(function () {
                                             document.querySelector("img.ovo").classList.remove("animate__animated", "animate__headShake")
                                         }, 1000)
-                                    }} />
+                                    }} /> */}
                                     <ReactAudioPlayer
                                         src={laugh}
                                         controls
                                     />
-                                    <img loading="lazy" title="Abobora" src={abobora} width="auto" height="auto" alt="abobora" className='abobora' onClick={() => {
+                                    {/* <img loading="lazy" title="Abobora" src={abobora} width="auto" height="auto" alt="abobora" className='abobora' onClick={() => {
                                         document.querySelector("img.abobora").classList.add("animate__animated", "animate__shakeY")
                                         setTimeout(function () {
                                             document.querySelector("img.abobora").classList.remove("animate__animated", "animate__shakeY")
@@ -116,9 +116,9 @@ const Painel = () => {
                                             document.querySelector("img.tree").classList.remove("animate__animated", "animate__bounce")
                                             // document.querySelector("climate-clock").style.display = "flex"
                                         }, 1000)
-                                    }} />
+                                    }} /> */}
                                     <p className='mb-4'>{i18n.t('ola.ola')}<br /><h2 className='painel_nome p-0 m-0'>André Akira</h2></p>
-                                </div>
+                                </main>
                                 <div className='mb-4 idiomas'>
                                     <button type="button" className="btn btn_small" onClick={handleSelectChange1} aria-label="Button">
                                         <div className="container_icon_flag">
@@ -152,22 +152,22 @@ const Painel = () => {
                             </div>
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0 flex-column">
                                 <li className="nav-item d-flex align-items-center">
-                                    <Link title="Sobre" className="nav-link" aria-current="page" to="/sobre"><FaInfoCircle className='icons' />{i18n.t('nav.sobre')}</Link>
+                                    <Link title="Saiba mais" className="nav-link" aria-current="page" to="/sobre"><FaInfoCircle className='icons' />{i18n.t('nav.sobre')}</Link>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <Link title="Histórico" className="nav-link" to="/historico"><BiHistory className='icons' />{i18n.t('nav.historico')}</Link>
+                                    <Link title="Ver histórico" className="nav-link" to="/historico"><BiHistory className='icons' />{i18n.t('nav.historico')}</Link>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <Link title="Habilidades" className="nav-link" to="/habilidades"><GiSkills className='icons' />{i18n.t('nav.habilidades')}</Link>
+                                    <Link title="Ver habilidades" className="nav-link" to="/habilidades"><GiSkills className='icons' />{i18n.t('nav.habilidades')}</Link>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <Link title="Portfólio" className="nav-link" to="/portfolio"><BiBookHeart className='icons' />{i18n.t('nav.portfolio')}</Link>
+                                    <Link title="Ver projetos realizados" className="nav-link" to="/portfolio"><BiBookHeart className='icons' />{i18n.t('nav.portfolio')}</Link>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <Link title="Hobbies" className="nav-link" to="/hobbies"><GiMusicalNotes className='icons' />{i18n.t('nav.hobbies')}</Link>
+                                    <Link title="Ver hobbies" className="nav-link" to="/hobbies"><GiMusicalNotes className='icons' />{i18n.t('nav.hobbies')}</Link>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <Link title="Contato" className="nav-link" to="/contato"><SiMinutemailer className='icons' />{i18n.t('nav.contato')}</Link>
+                                    <Link title="Entrar em contato" className="nav-link" to="/contato"><SiMinutemailer className='icons' />{i18n.t('nav.contato')}</Link>
                                 </li>
                             </ul>
                         </div>
