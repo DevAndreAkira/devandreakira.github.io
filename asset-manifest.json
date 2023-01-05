@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.849a0a2a.css",
-    "main.js": "/static/js/main.f55e50e8.js",
+    "main.js": "/static/js/main.fa71045c.js",
     "static/media/bg.webp": "/static/media/bg.9567fd657a18f59ffcbf.webp",
     "static/media/soccer.png": "/static/media/soccer.0d6e3ee1a96c90163f1f.png",
     "static/media/anfarmag.png": "/static/media/anfarmag.3979fe611e552a9bffe2.png",
@@ -63,16 +63,13 @@
     "static/media/mee-natal.png": "/static/media/mee-natal.a19c6d4e573c77eaba58.png",
     "static/media/mee-tree.png": "/static/media/mee-tree.c977c6ce7d66225e4926.png",
     "static/media/mee-egg.png": "/static/media/mee-egg.06e6d4a06630d8307bd8.png",
-    "static/media/egg.svg": "/static/media/egg.59edff45a4b6c034b9012222c76cd43b.svg",
     "static/media/remove-dotspace-min.jpeg": "/static/media/remove-dotspace-min.7ca016df0036eb6f8589.jpeg",
-    "static/media/abobora.svg": "/static/media/abobora.4b8181d865204c910de49b01a8968086.svg",
     "index.html": "/index.html",
-    "static/media/tree.svg": "/static/media/tree.659b86d30665dd314efa7c69c90ce837.svg",
     "main.849a0a2a.css.map": "/static/css/main.849a0a2a.css.map",
-    "main.f55e50e8.js.map": "/static/js/main.f55e50e8.js.map"
+    "main.fa71045c.js.map": "/static/js/main.fa71045c.js.map"
   },
   "entrypoints": [
     "static/css/main.849a0a2a.css",
-    "static/js/main.f55e50e8.js"
+    "static/js/main.fa71045c.js"
   ]
 }
