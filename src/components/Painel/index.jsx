@@ -97,7 +97,7 @@ const Painel = () => {
                                         src={laugh}
                                         controls
                                     />
-                                    <p className='mb-4'>{i18n.t('ola.ola')}<br /><h2 className='painel_nome p-0 m-0'>André Akira</h2></p>
+                                    <p className='mb-4'>{i18n.t('ola.ola')}<br /><h1 className='painel_nome p-0 m-0'>André Akira</h1></p>
                                 </div>
                                 <div className='mb-4 idiomas'>
                                     <button type="button" className="btn btn_small" onClick={handleSelectChange1} aria-label="Button">
