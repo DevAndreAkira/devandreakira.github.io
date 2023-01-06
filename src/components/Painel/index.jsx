@@ -90,15 +90,15 @@ const Painel = () => {
                         </button>
                         <div className="collapse navbar-collapse flex-column" id="navbarSupportedContent">
                             <div style={{ position: 'relative;' }} className="m-auto">
-                                <hgroup role="group" aria-roledescription="Heading group" className='position-relative d-flex flex-column text-white'>
-                                    <h1 className='mt-4 azul painel_nome'>{i18n.t('dev.front')}</h1>
+                                <hgroup role="group" aria-roledescription="Heading group" className='position-relative d-flex flex-column text-white align-items-center'>
+                                    <h1 className='mt-4 azul painel_nome'>Portfolio | DevAndreAkira</h1>
                                     <img src={sazonImages([logoPascoa, logoPascoa, logoBruxo, logoNatal], logo)} alt="DevAndreAkira" width="250" height="250" className="logo" title="DevAndreAkira" />
                                     <ReactAudioPlayer
                                         src={laugh}
                                         controls
                                     />
-                                    <p aria-roledescription={i18n.t('ola.ola')}>{i18n.t('ola.ola')}</p>
-                                    <h2 className='painel_nome p-0 m-0 mb-4'>André Akira</h2>
+                                    <h2 className='painel_nome p-0 m-0 mb-1' aria-roledescription={i18n.t('dev.front')}>{i18n.t('dev.front')}</h2>
+                                    <h2 className='painel_nome p-0 m-0 mb-4'>{i18n.t('ola.ola')} André Akira</h2>
                                 </hgroup>
                                 <div className='mb-4 idiomas'>
                                     <button type="button" className="btn btn_small" onClick={handleSelectChange1} aria-label="Button">
