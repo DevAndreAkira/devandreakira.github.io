@@ -15,7 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "start_url": "/",
+  "start_url": "/?utm_source=homescreen",
   "display": "standalone",
   "prefer_related_applications": false,
   "theme_color": "#05c3c3",
