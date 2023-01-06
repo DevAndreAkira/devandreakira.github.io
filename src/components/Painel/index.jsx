@@ -90,7 +90,8 @@ const Painel = () => {
                         </button>
                         <div className="collapse navbar-collapse flex-column" id="navbarSupportedContent">
                             <div style={{ position: 'relative;' }} className="m-auto">
-                                <main className='position-relative border-0 shadow-none bg-transparent text-center'>
+                                {/* <main className='position-relative border-0 shadow-none bg-transparent text-center'> */}
+                                <div className='position-relative'>
                                     <h1 className='mt-4 azul painel_nome'>{i18n.t('dev.front')}</h1>
                                     <img src={sazonImages([logoPascoa, logoPascoa, logoBruxo, logoNatal], logo)} alt="DevAndreAkira" width="250" height="250" className="logo" title="DevAndreAkira" />
                                     {/* <img loading="lazy" title="Ovo" width="auto" height="auto" src={egg} alt="egg" className='ovo' onClick={() => {
@@ -118,7 +119,7 @@ const Painel = () => {
                                         }, 1000)
                                     }} /> */}
                                     <p className='mb-4'>{i18n.t('ola.ola')}<br /><h2 className='painel_nome p-0 m-0'>André Akira</h2></p>
-                                </main>
+                                </div>
                                 <div className='mb-4 idiomas'>
                                     <button type="button" className="btn btn_small" onClick={handleSelectChange1} aria-label="Button">
                                         <div className="container_icon_flag">
