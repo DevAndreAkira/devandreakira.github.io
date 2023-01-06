@@ -63,22 +63,22 @@ const Header = () => {
                                         </Link>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">
-                                        <Link title="Sobre" className="nav-link" aria-current="page" to="/sobre"><FaInfoCircle className='icons' role="img" aria-label="Icon"><title>Icon</title><desc>Icon</desc></FaInfoCircle>{i18n.t('nav.sobre')}</Link>
+                                        <Link title="Sobre" className="nav-link" aria-current="page" to="/sobre"><FaInfoCircle className='icons' />{i18n.t('nav.sobre')}</Link>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">
-                                        <Link title="Histórico" className="nav-link" to="/historico"><BiHistory className='icons' role="img" aria-label="Icon"><title>Icon</title><desc>Icon</desc></BiHistory>{i18n.t('nav.historico')}</Link>
+                                        <Link title="Histórico" className="nav-link" to="/historico"><BiHistory className='icons' />{i18n.t('nav.historico')}</Link>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">
-                                        <Link title="Habilidades" className="nav-link" to="/habilidades"><GiSkills className='icons' role="img" aria-label="Icon"><title>Icon</title><desc>Icon</desc></GiSkills>{i18n.t('nav.habilidades')}</Link>
+                                        <Link title="Habilidades" className="nav-link" to="/habilidades"><GiSkills className='icons' />{i18n.t('nav.habilidades')}</Link>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">
-                                        <Link title="Portfólio" className="nav-link" to="/portfolio"><BiBookHeart className='icons' role="img" aria-label="Icon"><title>Icon</title><desc>Icon</desc></BiBookHeart>{i18n.t('nav.portfolio')}</Link>
+                                        <Link title="Portfólio" className="nav-link" to="/portfolio"><BiBookHeart className='icons' />{i18n.t('nav.portfolio')}</Link>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">
-                                        <Link title="Hobbies" className="nav-link" to="/hobbies"><GiMusicalNotes className='icons' role="img" aria-label="Icon"><title>Icon</title><desc>Icon</desc></GiMusicalNotes>{i18n.t('nav.hobbies')}</Link>
+                                        <Link title="Hobbies" className="nav-link" to="/hobbies"><GiMusicalNotes className='icons' />{i18n.t('nav.hobbies')}</Link>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">
-                                        <Link title="Contato" className="nav-link" to="/contato"><SiMinutemailer className='icons' role="img" aria-label="Icon"><title>Icon</title><desc>Icon</desc></SiMinutemailer>{i18n.t('nav.contato')}</Link>
+                                        <Link title="Contato" className="nav-link" to="/contato"><SiMinutemailer className='icons' />{i18n.t('nav.contato')}</Link>
                                     </li>
                                 </ul>
                             </Nav>
