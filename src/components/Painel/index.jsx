@@ -133,22 +133,22 @@ const Painel = () => {
                             </div>
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0 flex-column">
                                 <li className="nav-item d-flex align-items-center">
-                                    <Link title="Saiba mais" className="nav-link" aria-current="page" to="/sobre"><FaInfoCircle className='icons'><title>Icon</title><desc>Icon</desc></FaInfoCircle>{i18n.t('nav.sobre')}</Link>
+                                    <Link title="Saiba mais" className="nav-link" aria-current="page" to="/sobre"><FaInfoCircle className='icons' aria-hidden="true"/>{i18n.t('nav.sobre')}</Link>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <Link title="Ver histórico" className="nav-link" to="/historico"><BiHistory className='icons'/>{i18n.t('nav.historico')}</Link>
+                                    <Link title="Ver histórico" className="nav-link" to="/historico"><BiHistory className='icons' aria-hidden="true"/>{i18n.t('nav.historico')}</Link>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <Link title="Ver habilidades" className="nav-link" to="/habilidades"><GiSkills className='icons'/>{i18n.t('nav.habilidades')}</Link>
+                                    <Link title="Ver habilidades" className="nav-link" to="/habilidades"><GiSkills className='icons' aria-hidden="true"/>{i18n.t('nav.habilidades')}</Link>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <Link title="Ver projetos realizados" className="nav-link" to="/portfolio"><BiBookHeart className='icons'/>{i18n.t('nav.portfolio')}</Link>
+                                    <Link title="Ver projetos realizados" className="nav-link" to="/portfolio"><BiBookHeart className='icons' aria-hidden="true"/>{i18n.t('nav.portfolio')}</Link>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <Link title="Ver hobbies" className="nav-link" to="/hobbies"><GiMusicalNotes className='icons'/>{i18n.t('nav.hobbies')}</Link>
+                                    <Link title="Ver hobbies" className="nav-link" to="/hobbies"><GiMusicalNotes className='icons' aria-hidden="true"/>{i18n.t('nav.hobbies')}</Link>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <Link title="Entrar em contato" className="nav-link" to="/contato"><SiMinutemailer className='icons'/>{i18n.t('nav.contato')}</Link>
+                                    <Link title="Entrar em contato" className="nav-link" to="/contato"><SiMinutemailer className='icons' aria-hidden="true"/>{i18n.t('nav.contato')}</Link>
                                 </li>
                             </ul>
                         </div>
