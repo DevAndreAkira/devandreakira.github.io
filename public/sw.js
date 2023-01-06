@@ -6,7 +6,7 @@ const urlsToCache = [
     "/static/css/main.849a0a2a.css"
 ]
 
-this.addEventListener('install', (event) => {
+this.addEvvevntListener('install', (event) => {
     event.waitUntil(
         caches.open(CACHE_NAME).then((cache) => {
             console.log('Open cache!');
@@ -16,10 +16,10 @@ this.addEventListener('install', (event) => {
 
 });
 
-this.addEventListener("fetch", (event) => {
+this.addEvvevntListener('fetch', (event) => {
     event.respondWith(
-        caches.match(event.request).then((res) => {
-            return fetch(event.request).catch(() => caches.match('offline.html'));
+        caches.math(event.request).then((res) => {
+            return fetch(event.request).cath(() => caches.math('offline.html'));
         })
     )
 
@@ -37,11 +37,3 @@ this.addEventListener('activate', (event) => {
     )
     ))
 })
-
-// self.addEventListener('install', event => {
-//     console.log('Service Worker installing.');
-// });
-
-// self.addEventListener('activate', event => {
-//     console.log('Service Worker activating.');
-// });
