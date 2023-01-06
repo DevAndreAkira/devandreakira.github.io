@@ -98,7 +98,7 @@ const Painel = () => {
                                         controls
                                     />
                                     {i18n.t('ola.ola')}
-                                    <p className='painel_nome p-0 m-0 mb-4'>André Akira</p>
+                                    <h2 className='painel_nome p-0 m-0 mb-4'>André Akira</h2>
                                 </div>
                                 <div className='mb-4 idiomas'>
                                     <button type="button" className="btn btn_small" onClick={handleSelectChange1} aria-label="Button">
@@ -133,22 +133,22 @@ const Painel = () => {
                             </div>
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0 flex-column">
                                 <li className="nav-item d-flex align-items-center">
-                                    <Link title="Saiba mais" className="nav-link" aria-current="page" to="/sobre"><FaInfoCircle className='icons' />{i18n.t('nav.sobre')}</Link>
+                                    <Link title="Saiba mais" className="nav-link" aria-current="page" to="/sobre"><FaInfoCircle className='icons' alt='icon' />{i18n.t('nav.sobre')}</Link>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <Link title="Ver histórico" className="nav-link" to="/historico"><BiHistory className='icons' />{i18n.t('nav.historico')}</Link>
+                                    <Link title="Ver histórico" className="nav-link" to="/historico"><BiHistory className='icons' alt='icon' />{i18n.t('nav.historico')}</Link>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <Link title="Ver habilidades" className="nav-link" to="/habilidades"><GiSkills className='icons' />{i18n.t('nav.habilidades')}</Link>
+                                    <Link title="Ver habilidades" className="nav-link" to="/habilidades"><GiSkills className='icons' alt='icon' />{i18n.t('nav.habilidades')}</Link>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <Link title="Ver projetos realizados" className="nav-link" to="/portfolio"><BiBookHeart className='icons' />{i18n.t('nav.portfolio')}</Link>
+                                    <Link title="Ver projetos realizados" className="nav-link" to="/portfolio"><BiBookHeart className='icons' alt='icon' />{i18n.t('nav.portfolio')}</Link>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <Link title="Ver hobbies" className="nav-link" to="/hobbies"><GiMusicalNotes className='icons' />{i18n.t('nav.hobbies')}</Link>
+                                    <Link title="Ver hobbies" className="nav-link" to="/hobbies"><GiMusicalNotes className='icons' alt='icon' />{i18n.t('nav.hobbies')}</Link>
                                 </li>
                                 <li className="nav-item d-flex align-items-center">
-                                    <Link title="Entrar em contato" className="nav-link" to="/contato"><SiMinutemailer className='icons' />{i18n.t('nav.contato')}</Link>
+                                    <Link title="Entrar em contato" className="nav-link" to="/contato"><SiMinutemailer className='icons' alt='icon' />{i18n.t('nav.contato')}</Link>
                                 </li>
                             </ul>
                         </div>
