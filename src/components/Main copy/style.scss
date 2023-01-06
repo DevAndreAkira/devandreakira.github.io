@@ -9,8 +9,8 @@ main {
     text-align: left;
     background: rgba( 13, 16, 30, 0.25 ) !important;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important;
-    // backdrop-filter: blur( 4px );
-    // -webkit-backdrop-filter: blur( 4px ) !important;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px ) !important;
     border-radius: 10px;
     border: 1px solid #05C3C32e !important;
 }
