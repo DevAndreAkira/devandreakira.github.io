@@ -90,14 +90,14 @@ const Painel = () => {
                         </button>
                         <div className="collapse navbar-collapse flex-column" id="navbarSupportedContent">
                             <div style={{ position: 'relative;' }} className="m-auto">
-                                <div className='position-relative'>
+                                <div className='position-relative d-flex flex-column text-white'>
                                     <h1 className='mt-4 azul painel_nome'>{i18n.t('dev.front')}</h1>
                                     <img src={sazonImages([logoPascoa, logoPascoa, logoBruxo, logoNatal], logo)} alt="DevAndreAkira" width="250" height="250" className="logo" title="DevAndreAkira" />
                                     <ReactAudioPlayer
                                         src={laugh}
                                         controls
                                     />
-                                    <p className=''>{i18n.t('ola.ola')}</p>
+                                    {i18n.t('ola.ola')}
                                     <p className='painel_nome p-0 m-0 mb-4'>André Akira</p>
                                 </div>
                                 <div className='mb-4 idiomas'>
