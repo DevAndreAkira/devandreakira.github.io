@@ -1,6 +1,6 @@
 const CACHE_NAME = "version-1"
 const urlsToCache = [
-    "index.html",
+    "index.html", 
     "/static/media/bg.9567fd657a18f59ffcbf.webp",
     "/static/js/main.f55e50e8.js",
     "/static/media/mee.1ad67ad9564530ec77a2.png",
@@ -20,7 +20,7 @@ this.addEventListener('install', (event) => {
 this.addEventListener("fetch", (event) => {
     event.respondWith(
         caches.match(event.request).then((res) => {
-            return fetch(event.request).catch(() => caches.match('/static/media/bg.9567fd657a18f59ffcbf.webp'));
+            return fetch(event.request).catch(() => caches.match('offline.html'));
         })
     )
 
