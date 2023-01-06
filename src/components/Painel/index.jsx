@@ -90,34 +90,13 @@ const Painel = () => {
                         </button>
                         <div className="collapse navbar-collapse flex-column" id="navbarSupportedContent">
                             <div style={{ position: 'relative;' }} className="m-auto">
-                                {/* <main className='position-relative border-0 shadow-none bg-transparent text-center'> */}
                                 <div className='position-relative'>
                                     <h1 className='mt-4 azul painel_nome'>{i18n.t('dev.front')}</h1>
                                     <img src={sazonImages([logoPascoa, logoPascoa, logoBruxo, logoNatal], logo)} alt="DevAndreAkira" width="250" height="250" className="logo" title="DevAndreAkira" />
-                                    {/* <img loading="lazy" title="Ovo" width="auto" height="auto" src={egg} alt="egg" className='ovo' onClick={() => {
-                                        document.querySelector("img.ovo").classList.add("animate__animated", "animate__headShake")
-                                        setTimeout(function () {
-                                            document.querySelector("img.ovo").classList.remove("animate__animated", "animate__headShake")
-                                        }, 1000)
-                                    }} /> */}
                                     <ReactAudioPlayer
                                         src={laugh}
                                         controls
                                     />
-                                    {/* <img loading="lazy" title="Abobora" src={abobora} width="auto" height="auto" alt="abobora" className='abobora' onClick={() => {
-                                        document.querySelector("img.abobora").classList.add("animate__animated", "animate__shakeY")
-                                        setTimeout(function () {
-                                            document.querySelector("img.abobora").classList.remove("animate__animated", "animate__shakeY")
-                                            document.querySelector(".react-audio-player").play()
-                                        }, 1000)
-                                    }} />
-                                    <img loading="lazy" title="Arvore" src={tree} width="auto" height="auto" alt="tree" className='tree' onClick={() => {
-                                        document.querySelector("img.tree").classList.add("animate__animated", "animate__bounce")
-                                        setTimeout(function () {
-                                            document.querySelector("img.tree").classList.remove("animate__animated", "animate__bounce")
-                                            // document.querySelector("climate-clock").style.display = "flex"
-                                        }, 1000)
-                                    }} /> */}
                                     <p className='mb-4'>{i18n.t('ola.ola')}<br /><h2 className='painel_nome p-0 m-0'>André Akira</h2></p>
                                 </div>
                                 <div className='mb-4 idiomas'>

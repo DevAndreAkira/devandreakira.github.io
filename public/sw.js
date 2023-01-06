@@ -1,6 +1,5 @@
 const CACHE_NAME = "version-1"
 const urlsToCache = [
-    "index.html", 
     "/static/media/bg.9567fd657a18f59ffcbf.webp",
     "/static/js/main.f55e50e8.js",
     "/static/media/mee.1ad67ad9564530ec77a2.png",
@@ -14,7 +13,6 @@ this.addEventListener('install', (event) => {
             return cache.addAll(urlsToCache);
         })
     )
-
 });
 
 this.addEventListener("fetch", (event) => {
@@ -38,11 +36,3 @@ this.addEventListener('activate', (event) => {
     )
     ))
 })
-
-// self.addEventListener('install', event => {
-//     console.log('Service Worker installing.');
-// });
-
-// self.addEventListener('activate', event => {
-//     console.log('Service Worker activating.');
-// });
