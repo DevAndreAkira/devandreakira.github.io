@@ -9,7 +9,7 @@ import 'animate.css';
 import ReactAudioPlayer from 'react-audio-player';
 
 //~ IMAGES
-import logo from '../../assets/img/mee.png';
+import logo from '../../assets/img/mee.svg';
 import logoNatal from '../../assets/img/mee-natal.png';
 import logoBruxo from '../../assets/img/mee-bruxo.png';
 import logoPascoa from '../../assets/img/mee-egg.png';
