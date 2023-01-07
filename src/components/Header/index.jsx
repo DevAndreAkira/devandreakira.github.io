@@ -13,7 +13,7 @@ import { SiMinutemailer } from "react-icons/si";
 import i18n from '../translate/i18n';
 
 //~ IMAGENS 
-import logo from '../../assets/img/mee.png';
+import logo from '../../assets/img/mee.svg';
 import logoNatal from '../../assets/img/mee-natal.png';
 import logoBruxo from '../../assets/img/mee-bruxo2.png';
 import logoPascoa from '../../assets/img/mee-egg2.png';
