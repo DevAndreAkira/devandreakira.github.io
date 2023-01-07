@@ -370,3 +370,9 @@ div.none,
         margin: 0 2rem !important;
     }
 }
+
+@media(max-width:767px){
+    body {
+        background: var(--tertiary-color) !important;
+    }
+}
