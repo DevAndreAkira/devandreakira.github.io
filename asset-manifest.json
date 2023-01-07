@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.b3f0f9bc.css",
-    "main.js": "/static/js/main.d5c72bb3.js",
+    "main.js": "/static/js/main.44b76d8d.js",
     "static/media/bg.webp": "/static/media/bg.9567fd657a18f59ffcbf.webp",
     "static/media/anfarmag.png": "/static/media/anfarmag.3979fe611e552a9bffe2.png",
     "static/media/roma2.jpg": "/static/media/roma2.4dd511b386949bf49909.jpg",
     "static/media/soccer.png": "/static/media/soccer.76894c7aa0e56be9d4c4.png",
-    "static/media/mee.svg": "/static/media/mee.80276459631fc14695fe5eec7c176faf.svg",
     "static/media/roma3.jpg": "/static/media/roma3.b49b3f02de6bd80df935.jpg",
     "static/media/arcane.png": "/static/media/arcane.54af77920e0a27598ba0.png",
     "static/media/roma.jpeg": "/static/media/roma.e377f93781ecadc52787.jpeg",
@@ -36,6 +35,7 @@
     "static/media/cordova.png": "/static/media/cordova.9d771b62544878b11034.png",
     "static/media/sobre.jpg": "/static/media/sobre.8ebfc2cdfac82c4d6170.jpg",
     "static/media/css.png": "/static/media/css.cc09efccf14b8e30d1a9.png",
+    "static/media/mee.png": "/static/media/mee.a3fc03ed48d4a6483210.png",
     "static/media/jquery.png": "/static/media/jquery.a8d54fe8ae2833b08602.png",
     "static/media/file.png": "/static/media/file.48452cc9dbf4db55d30b.png",
     "static/media/js.png": "/static/media/js.8a5e27eaf6e37f508f0a.png",
@@ -65,10 +65,10 @@
     "static/media/remove-dotspace-min.jpeg": "/static/media/remove-dotspace-min.7ca016df0036eb6f8589.jpeg",
     "index.html": "/index.html",
     "main.b3f0f9bc.css.map": "/static/css/main.b3f0f9bc.css.map",
-    "main.d5c72bb3.js.map": "/static/js/main.d5c72bb3.js.map"
+    "main.44b76d8d.js.map": "/static/js/main.44b76d8d.js.map"
   },
   "entrypoints": [
     "static/css/main.b3f0f9bc.css",
-    "static/js/main.d5c72bb3.js"
+    "static/js/main.44b76d8d.js"
   ]
 }
