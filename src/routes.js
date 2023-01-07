@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import logo from './assets/img/mee.svg';
+import logo from './assets/img/mee.png';
 
 import Home from './Pages/Home';
 import Sobre from './Pages/Sobre';
