@@ -3,7 +3,7 @@ const urlsToCache = [
     '/',
     '/index.html',
     "/static/media/bg.9567fd657a18f59ffcbf.webp",
-    "/static/media/mee.80276459631fc14695fe5eec7c176faf.svg"
+    "/static/media/mee.a3fc03ed48d4a6483210.png"
 ]
 
 this.addEventListener('install', (event) => {
