@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b1e42487.css",
-    "main.js": "/static/js/main.6d793ba3.js",
+    "main.js": "/static/js/main.e888205d.js",
     "static/media/bg.webp": "/static/media/bg.9567fd657a18f59ffcbf.webp",
     "static/media/soccer.png": "/static/media/soccer.0d6e3ee1a96c90163f1f.png",
     "static/media/anfarmag.png": "/static/media/anfarmag.3979fe611e552a9bffe2.png",
@@ -12,13 +12,13 @@
     "static/media/la2.jpg": "/static/media/la2.398706660a85c6e1c7af.jpg",
     "static/media/interativa2.jpg": "/static/media/interativa2.ae76e61e4e08585d2f12.jpg",
     "static/media/anfarmag2.jpg": "/static/media/anfarmag2.5ff34145c6d6cdd4b3f6.jpg",
-    "static/media/mee.svg": "/static/media/mee.9ec14b1e44b3f2c0a0d9a04b4a0c19f5.svg",
     "static/media/a3tech3.jpg": "/static/media/a3tech3.7e8b4b12c635dd926a8a.jpg",
     "static/media/roma3.jpg": "/static/media/roma3.b49b3f02de6bd80df935.jpg",
     "static/media/interativa3.jpg": "/static/media/interativa3.7d40aa82519b28b0028e.jpg",
     "static/media/roma.jpeg": "/static/media/roma.e377f93781ecadc52787.jpeg",
     "static/media/la3.jpg": "/static/media/la3.9698e4f520c6d9726cf6.jpg",
     "static/media/a3tech.jpeg": "/static/media/a3tech.4b7d7f77cbae8e51488c.jpeg",
+    "static/media/mee.png": "/static/media/mee.f908004850eab1fe5243.png",
     "static/media/bunge1.jpg": "/static/media/bunge1.f7ef1a769849a5828b88.jpg",
     "static/media/clo2.jpg": "/static/media/clo2.6b8412daa07ad4ca34d3.jpg",
     "static/media/canva.png": "/static/media/canva.5aa639e948d5c255f4c7.png",
@@ -66,10 +66,10 @@
     "static/media/remove-dotspace-min.jpeg": "/static/media/remove-dotspace-min.7ca016df0036eb6f8589.jpeg",
     "index.html": "/index.html",
     "main.b1e42487.css.map": "/static/css/main.b1e42487.css.map",
-    "main.6d793ba3.js.map": "/static/js/main.6d793ba3.js.map"
+    "main.e888205d.js.map": "/static/js/main.e888205d.js.map"
   },
   "entrypoints": [
     "static/css/main.b1e42487.css",
-    "static/js/main.6d793ba3.js"
+    "static/js/main.e888205d.js"
   ]
 }
