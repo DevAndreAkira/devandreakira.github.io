@@ -116,7 +116,7 @@ const Painel = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        {/* <img loading="lazy" title="Idioma inglês" src={eua} alt="Idioma - Inglês" className="en-US" width="45" height="45" /> */}
+                                        {/* <img loading="lazy" title="Idioma inglês" src={eua} alt="Idioma - Inglês" className="_en-US" width="45" height="45" /> */}
                                     </button>
                                     <button type="button" className="btn btn_small" onClick={handleSelectChange2} aria-label="Button">
                                         <div className="container_icon_flag">
@@ -127,7 +127,7 @@ const Painel = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        {/* <img loading="lazy" title="Idioma português" src={brasil} alt="Idioma - Português" className="pt-BR" width="45" height="45" /> */}
+                                        {/* <img loading="lazy" title="Idioma português" src={brasil} alt="Idioma - Português" className="_pt-BR" width="45" height="45" /> */}
                                     </button>
                                 </div>
                             </div>

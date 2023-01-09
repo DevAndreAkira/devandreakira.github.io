@@ -71,7 +71,7 @@ const Contato = () => {
                         <div className='mb-4 idiomas'>
                             <button type="button" className="btn btn_small" onClick={handleSelectChange1} aria-label="Button">
                                 <div className="container_icon_flag">
-                                    <div className="en-US">
+                                    <div className="_en-US">
                                         <div className="squad_eua">
                                         </div>
                                         <div className="star1">
@@ -84,18 +84,18 @@ const Contato = () => {
                                         </div>
                                     </div>
                                 </div>
-                                {/* <img loading="lazy" title="Idioma inglês" src={eua} alt="Idioma - Inglês" className="en-US" width="45" height="45" /> */}
+                                {/* <img loading="lazy" title="Idioma inglês" src={eua} alt="Idioma - Inglês" className="_en-US" width="45" height="45" /> */}
                             </button>
                             <button type="button" className="btn btn_small" onClick={handleSelectChange2} aria-label="Button">
                                 <div className="container_icon_flag">
-                                    <div className="pt-BR">
+                                    <div className="_pt-BR">
                                         <div className="gold_br">
                                             <div className="circle_blue_br">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                {/* <img loading="lazy" title="Idioma português" src={brasil} alt="Idioma - Português" className="pt-BR" width="45" height="45" /> */}
+                                {/* <img loading="lazy" title="Idioma português" src={brasil} alt="Idioma - Português" className="_pt-BR" width="45" height="45" /> */}
                             </button>
                         </div>
                     </div>
