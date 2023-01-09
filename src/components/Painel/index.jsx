@@ -29,18 +29,19 @@ const Painel = () => {
 
     const I18N_STORAGE_KEY = 'i18nextLng'
 
-    const handleSelectChange1 = event => {
-        localStorage.setItem(
-            I18N_STORAGE_KEY,
-            "en-US"
-        )
-        window.location.reload()
-    }
-
+    
     const handleSelectChange2 = event => {
         localStorage.setItem(
             I18N_STORAGE_KEY,
             "pt-BR"
+        )
+        window.location.reload()
+    }
+
+    const handleSelectChange1 = event => {
+        localStorage.setItem(
+            I18N_STORAGE_KEY,
+            "en-US"
         )
         window.location.reload()
     }
