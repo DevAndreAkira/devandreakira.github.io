@@ -13,7 +13,6 @@ this.addEventListener('install', (event) => {
             return cache.addAll(urlsToCache);
         })
     )
-
 });
 
 this.addEventListener("fetch", (event) => {
