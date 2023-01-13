@@ -55,7 +55,6 @@ const Contato = () => {
         window.location.reload()
     }
 
-
     return (
         <>
             <Header />
