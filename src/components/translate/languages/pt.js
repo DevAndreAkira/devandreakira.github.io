@@ -1,6 +1,11 @@
 const messages = {
     pt: {
         translations: {
+            btn_access:{
+                menu: 'Menu de navegação',
+                title_en: 'Alterar idioma para inglês',
+                title_pt: 'Alterar idioma para português brasileiro'
+            },
             ola: {
                 ola: 'Olá, meu nome é '
             },

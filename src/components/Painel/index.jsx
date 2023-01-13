@@ -84,7 +84,7 @@ const Painel = () => {
             <header className="col-12 painel slideUp">
                 <nav className="navbar navbar-expand-lg navbar-light flex-column">
                     <div className="container-fluid">
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        <button className="navbar-toggler" value="Menu" title={i18n.t('btn_access.menu')} type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
@@ -102,7 +102,7 @@ const Painel = () => {
                                     <h3 className='painel_nome p-0 m-0 mb-4'>{i18n.t('ola.ola')} André Akira</h3>
                                 </hgroup>
                                 <div className='mb-4 idiomas'>
-                                    <button type="button" className="btn btn_small" onClick={handleSelectChange1} aria-label="Button">
+                                    <button type="button" className="btn btn_small" onClick={handleSelectChange1} aria-label="Button" value="Inglês" title={i18n.t('btn_access.title_en')}>
                                         <div className="container_icon_flag">
                                             <div className="_en-US">
                                                 <div className="squad_eua">
@@ -119,7 +119,7 @@ const Painel = () => {
                                         </div>
                                         {/* <img loading="lazy" title="Idioma inglês" src={eua} alt="Idioma - Inglês" className="_en-US" width="45" height="45" /> */}
                                     </button>
-                                    <button type="button" className="btn btn_small" onClick={handleSelectChange2} aria-label="Button">
+                                    <button type="button" className="btn btn_small" onClick={handleSelectChange2} aria-label="Button" value="Português brasileiro" title={i18n.t('btn_access.title_pt')}>
                                         <div className="container_icon_flag">
                                             <div className="_pt-BR">
                                                 <div className="gold_br">

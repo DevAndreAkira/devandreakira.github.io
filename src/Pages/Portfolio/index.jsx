@@ -85,10 +85,6 @@ const Portfolio = () => {
         window.location.reload()
     }
 
-    window.onload = () => {
-        document.querySelector("#navbarSupportedContent > ul > li:nth-child(5) > a").classList.add("active");
-    }
-
     var projetos = {
         titulo: [
             "A3Tech - 2020",
@@ -184,7 +180,7 @@ const Portfolio = () => {
                     <div className="titulo">
                         <h1 className='titles text-white pt-3 pb-3 pb-md-0 h3'>{i18n.t('projetos.titulo')}</h1>
                         <div className='mb-4 idiomas'>
-                            <button type="button" className="btn btn_small" onClick={handleSelectChange1} aria-label="Button">
+                            <button type="button" className="btn btn_small" onClick={handleSelectChange1} aria-label="Button" title={i18n.t('btn_access.title_en')}>
                                 <div className="container_icon_flag">
                                     <div className="_en-US">
                                         <div className="squad_eua">
@@ -201,7 +197,7 @@ const Portfolio = () => {
                                 </div>
                                 {/* <img loading="lazy" title="Idioma inglês" src={eua} alt="Idioma - Inglês" className="_en-US" width="45" height="45" /> */}
                             </button>
-                            <button type="button" className="btn btn_small" onClick={handleSelectChange2} aria-label="Button">
+                            <button type="button" className="btn btn_small" onClick={handleSelectChange2} aria-label="Button" title={i18n.t('btn_access.title_pt')}>
                                 <div className="container_icon_flag">
                                     <div className="_pt-BR">
                                         <div className="gold_br">

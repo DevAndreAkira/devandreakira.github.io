@@ -50,11 +50,6 @@ const Home = () => {
         window.location.reload()
     }
 
-    window.onload = () => {
-        document.querySelector("#navbarSupportedContent > ul > li:nth-child(2) > a").classList.add("active");
-    }
-
-
 
     return (
         <>
@@ -66,7 +61,7 @@ const Home = () => {
                         <div className="titulo">
                             <h1 className='titles text-white pt-3 pb-3 pb-md-0 h3'>{i18n.t('titles.psobre')}</h1>
                             <div>
-                                <button type="button" className="btn btn_small" onClick={handleSelectChange1} aria-label="Button">
+                                <button type="button" className="btn btn_small" onClick={handleSelectChange1} aria-label="Button" title={i18n.t('btn_access.title_en')}>
                                     <div className="container_icon_flag">
                                         <div className="_en-US">
                                             <div className="squad_eua">
@@ -83,7 +78,7 @@ const Home = () => {
                                     </div>
                                     {/* <img loading="lazy" title="Idioma inglês" src={eua} alt="Idioma - Inglês" className="_en-US" width="45" height="45" /> */}
                                 </button>
-                                <button type="button" className="btn btn_small" onClick={handleSelectChange2} aria-label="Button">
+                                <button type="button" className="btn btn_small" onClick={handleSelectChange2} aria-label="Button" title={i18n.t('btn_access.title_pt')}>
                                     <div className="container_icon_flag">
                                         <div className="_pt-BR">
                                             <div className="gold_br">
@@ -102,7 +97,7 @@ const Home = () => {
                         <div className="col-md-6 col-lg-8">
                             <p>{i18n.t('conteudo.psobre')}</p>
                             <h2 className='mt-5 titles'>{i18n.t('titles.psobre2')}</h2>
-                            <button type="button" aria-label="Teste comportamental" variant="primary" onClick={handleShow1} className="neoBtn" data-toggle="modal" data-target="#exampleModalLong">
+                            <button type="button" aria-label="Teste comportamental" variant="primary" onClick={handleShow1} className="neoBtn" data-toggle="modal" data-target="#exampleModalLong" title={i18n.t('titles.psobre2')}>
                                 <BsDisc />
                             </button>
                             <Modal show={show1} onHide={handleClose1}>
@@ -120,7 +115,9 @@ const Home = () => {
                                 </Modal.Footer>
                             </Modal>
 
-                            <button type="button" variant="primary" onClick={handleShow2} className="neoBtn" aria-label="Teste comportamental" data-toggle="modal" data-target="#exampleModalLong"><GiWolfHowl /></button>
+                            <button type="button" variant="primary" onClick={handleShow2} className="neoBtn" aria-label="Teste comportamental" data-toggle="modal" data-target="#exampleModalLong" title={i18n.t('conteudo.psobreTeste.titles')}>
+                                <GiWolfHowl />
+                            </button>
                             <Modal show={show2} onHide={handleClose2}>
                                 <Modal.Header closeButton>
                                     <Modal.Title>{i18n.t('conteudo.psobreTeste.titles')}</Modal.Title>
@@ -137,7 +134,9 @@ const Home = () => {
                                 </Modal.Footer>
                             </Modal>
 
-                            <button type="button" variant="primary" onClick={handleShow3} aria-label="Teste comportamental" className="neoBtn" data-toggle="modal" data-target="#exampleModalLong"><GiBrain /></button>
+                            <button type="button" variant="primary" onClick={handleShow3} aria-label="Teste comportamental" className="neoBtn" data-toggle="modal" data-target="#exampleModalLong" title={i18n.t('conteudo.psobrePerso.titles')}>
+                                <GiBrain />
+                            </button>
                             <Modal show={show3} onHide={handleClose3}>
                                 <Modal.Header closeButton>
                                     <Modal.Title>{i18n.t('conteudo.psobrePerso.titles')}</Modal.Title>

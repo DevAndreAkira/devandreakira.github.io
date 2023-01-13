@@ -14,7 +14,7 @@ const RedesSociais = () => {
                 </form>
                 <ul className="d-flex align-items-center mobile_social">
                     <li>
-                        <a href="https://www.linkedin.com/in/andr%C3%A9-akira-kusaba-257510138/" className="nav-link" aria-label="Linkedin" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/andr%C3%A9-akira-kusaba-257510138/" className="nav-link" aria-label="Linkedin" target="_blank" title='Linkedin' name='Linkedin' rel="noreferrer">
                             <FaLinkedinIn />
                         </a>
                     </li>
@@ -29,12 +29,12 @@ const RedesSociais = () => {
                         </a>
                     </li> */}
                     <li>
-                        <a href="https://github.com/DevAndreAkira" className="nav-link" aria-label="Github" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/DevAndreAkira" className="nav-link" aria-label="Github" target="_blank" title='Github' name='Github' rel="noreferrer">
                             <FaGithubAlt />
                         </a>
                     </li>
                     <li>
-                        <a href="https://replit.com/@DevAndreAkira/" className="nav-link" aria-label="Replit" target="_blank" rel="noreferrer">
+                        <a href="https://replit.com/@DevAndreAkira/" className="nav-link" aria-label="Replit" target="_blank" title='Repl.it' name='Repl.it' rel="noreferrer">
                             <SiReplit />
                         </a>
                     </li>

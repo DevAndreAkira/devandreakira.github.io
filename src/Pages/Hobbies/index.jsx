@@ -120,7 +120,7 @@ const Hobbies = () => {
                     <div className="titulo">
                         <h1 className='titles text-white pt-3 pb-3 pb-md-0 h3'>{i18n.t('hobbies.titulo')}</h1>
                         <div className='mb-4 idiomas'>
-                            <button type="button" className="btn btn_small" onClick={handleSelectChange1} aria-label="Button">
+                            <button type="button" className="btn btn_small" onClick={handleSelectChange1} aria-label="Button" title={i18n.t('btn_access.title_en')}>
                                 <div className="container_icon_flag">
                                     <div className="_en-US">
                                         <div className="squad_eua">
@@ -137,7 +137,7 @@ const Hobbies = () => {
                                 </div>
                                 {/* <img loading="lazy" title="Idioma inglês" src={eua} alt="Idioma - Inglês" className="_en-US" width="45" height="45" /> */}
                             </button>
-                            <button type="button" className="btn btn_small" onClick={handleSelectChange2} aria-label="Button">
+                            <button type="button" className="btn btn_small" onClick={handleSelectChange2} aria-label="Button" title={i18n.t('btn_access.title_pt')}>
                                 <div className="container_icon_flag">
                                     <div className="_pt-BR">
                                         <div className="gold_br">
@@ -159,7 +159,7 @@ const Hobbies = () => {
                                 {Array.from({ length: totalGames }).map((_, idx) => (
                                     <Col>
                                         <Card>
-                                            <a href={hobbies.urlGames[idx]} target="_blank" rel="noreferrer" className=''>
+                                            <a href={hobbies.urlGames[idx]} target="_blank" rel="noreferrer" className='' name={hobbies.games[idx]}>
                                                 <Card.Img variant="bottom" src={hobbies.imgGames[idx]} width="300" height="200" alt={hobbies.games[idx]} />
                                                 <Card.Body>
                                                     <Card.Title>{hobbies.games[idx]} <CgBrowser /></Card.Title>
@@ -177,7 +177,7 @@ const Hobbies = () => {
                                 {Array.from({ length: totalTraducoes }).map((_, idx) => (
                                     <Col>
                                         <Card className="">
-                                            <a href={hobbies.urlTrans[idx]} target="_blank" rel="noreferrer" className=''>
+                                            <a href={hobbies.urlTrans[idx]} target="_blank" rel="noreferrer" className='' name={hobbies.gameTrans[idx]}>
                                                 <Card.Img variant="bottom" src={hobbies.imgTrans[idx]} width="300" height="200" alt={hobbies.gameTrans[idx]} />
                                                 <Card.Body>
                                                     <Card.Title>{hobbies.gameTrans[idx]} <CgBrowser /></Card.Title>
