@@ -50,11 +50,6 @@ const Home = () => {
         window.location.reload()
     }
 
-    window.onload = () => {
-        document.querySelector("#navbarSupportedContent > ul > li:nth-child(2) > a").classList.add("active");
-    }
-
-
 
     return (
         <>
