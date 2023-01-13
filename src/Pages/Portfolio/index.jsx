@@ -85,10 +85,6 @@ const Portfolio = () => {
         window.location.reload()
     }
 
-    window.onload = () => {
-        document.querySelector("#navbarSupportedContent > ul > li:nth-child(5) > a").classList.add("active");
-    }
-
     var projetos = {
         titulo: [
             "A3Tech - 2020",

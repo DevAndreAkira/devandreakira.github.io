@@ -45,8 +45,8 @@ div.carousel-inner > div:nth-child(n) > div > a {
 }
 
 .btn_slider {
-    color: var(--tertiary-color) !important;
-    background: var(--primary-color) !important;
+    color: #fff !important;
+    background: var(--tertiary-color) !important;
     border-radius: 0.25rem;
     padding: 0.5rem 1rem;
     font-weight: 700;
@@ -54,8 +54,8 @@ div.carousel-inner > div:nth-child(n) > div > a {
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
-.btn_slider:hover {
-    color: var(--primary-color) !important;
+:hover {
+    color: #fff !important;
     background: var(--tertiary-color) !important;
 }
 
@@ -124,7 +124,7 @@ div.carousel-inner > div:nth-child(n) > div > a {
         width: 40px;
         height: 40px;
     }
-    .btn_slider {
+     {
         font-size: 12px;
         padding: 0.5rem;
     }

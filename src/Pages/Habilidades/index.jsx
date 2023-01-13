@@ -61,10 +61,6 @@ const Habilidades = () => {
         window.location.reload()
     }
 
-    window.onload = () => {
-        document.querySelector("#navbarSupportedContent > ul > li:nth-child(4) > a").classList.add("active");
-    }
-
     var icon = {
         linguagens: [
             "HTML5",
