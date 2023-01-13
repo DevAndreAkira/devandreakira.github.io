@@ -45,8 +45,8 @@ div.carousel-inner > div:nth-child(n) > div > a {
 }
 
 .btn_slider {
-    color: #fff !important;
-    background: var(--tertiary-color) !important;
+    color: #000000 !important;
+    background: #05F8F7 !important;
     border-radius: 0.25rem;
     padding: 0.5rem 1rem;
     font-weight: 700;
@@ -55,7 +55,7 @@ div.carousel-inner > div:nth-child(n) > div > a {
 }
 
 .btn_slider:hover {
-    color: #fff !important;
+    color: var(--primary-color) !important;
     background: var(--tertiary-color) !important;
 }
 
