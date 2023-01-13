@@ -54,7 +54,7 @@ div.carousel-inner > div:nth-child(n) > div > a {
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
-:hover {
+.btn_slider:hover {
     color: #fff !important;
     background: var(--tertiary-color) !important;
 }
@@ -124,7 +124,7 @@ div.carousel-inner > div:nth-child(n) > div > a {
         width: 40px;
         height: 40px;
     }
-     {
+    .btn_slider {
         font-size: 12px;
         padding: 0.5rem;
     }

@@ -83,10 +83,6 @@ const Historico = () => {
         imgs: [input, rlti, amz, elo, hands]
     }
 
-    window.onload = () => {
-        document.querySelector("#navbarSupportedContent > ul > li:nth-child(3) > a").classList.add("active");
-    }
-
     return (
         <>
             <div className="App d-flex">
