@@ -2,7 +2,7 @@ const messages = {
     pt: {
         translations: {
             btn_access:{
-                menu: 'Menu de navegação',
+                menu: 'Menu mobile',
                 title_en: 'Alterar idioma para inglês',
                 title_pt: 'Alterar idioma para português brasileiro'
             },
