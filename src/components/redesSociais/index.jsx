@@ -9,8 +9,8 @@ const RedesSociais = () => {
         <>
             <div className="d-flex align-items-start justify-content-between">
                 <form className="d-flex">
-                    <input className="form-control me-2" type="search" placeholder={i18n.t('buscar.buscar')} aria-label="Search" />
-                    <button className="btn position-absolute" type="submit"><FaSearch style={{ color: "#A4B6C9" }} /></button>
+                    {/* <input className="form-control me-2" type="search" placeholder={i18n.t('buscar.buscar')} aria-label="Search" />
+                    <button className="btn position-absolute" type="submit"><FaSearch style={{ color: "#A4B6C9" }} /></button> */}
                 </form>
                 <ul className="d-flex align-items-center mobile_social">
                     <li>

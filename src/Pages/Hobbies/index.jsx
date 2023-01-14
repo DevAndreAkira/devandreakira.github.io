@@ -153,7 +153,7 @@ const Hobbies = () => {
                 </section>
 
                 <div className="row-cols-xl-12 mt-2 gx-2 hobbies">
-                    <Tabs defaultActiveKey="home" id="uncontrolled-tab-example" className="mb-3">
+                    <Tabs defaultActiveKey="home" id="uncontrolled-tab-example" className="mb-3" aria-labelledby="Games">
                         <Tab eventKey="home" title="Games" className=''>
                             <Row xs={1} sm={2} md={3} lg={3} className="g-4">
                                 {Array.from({ length: totalGames }).map((_, idx) => (
