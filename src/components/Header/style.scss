@@ -320,6 +320,7 @@ div.none,
     #responsive-navbar-nav>div>ul>li:nth-child(1)>a {
         align-items: center;
         display: flex;
+        text-align: center;
     }
 
     #responsive-navbar-nav>div>ul>li:nth-child(1)>a>img {
@@ -366,9 +367,9 @@ div.none,
 }
 
 @media(min-width:1120px) {
-    #responsive-navbar-nav>div {
-        margin: 0 2rem !important;
-    }
+    // #responsive-navbar-nav>div {
+    //     margin: 0 2rem !important;
+    // }
 }
 
 @media(max-width:991px){

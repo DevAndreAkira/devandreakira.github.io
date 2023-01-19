@@ -57,7 +57,7 @@ const Header = () => {
                             <Nav className="mx-auto">
                                 <ul className="navbar-nav mb-2 mb-lg-0 flex-column">
                                     <li className="nav-item">
-                                        <Link className="navbar-brand nav-link" to="/"><img src={sazonImages([logoPascoa, logoArvore, logoBruxo, logoNatal], logo)} alt="Dev André Akira"
+                                        <Link className="navbar-brand nav-link text-center" to="/"><img src={sazonImages([logoPascoa, logoArvore, logoBruxo, logoNatal], logo)} alt="Dev André Akira"
                                             width="120" height="120" className="logo" />
                                             <p className='mb-0 mb-lg-4'>{i18n.t('ola.ola')}<br />André Akira</p>
                                         </Link>
