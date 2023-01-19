@@ -83,6 +83,7 @@ const Painel = () => {
         <>
             <header className="col-12 painel slideUp">
                 <nav className="navbar navbar-expand-lg navbar-light flex-column">
+                    <a href="#main" className='px-5 pt-0 d-none d-lg-block' accesskey="1" style={{position: 'absolute', top: 20}}>1- Principal</a>
                     <div className="container-fluid">
                         <button className="navbar-toggler" value="Menu" title={i18n.t('btn_access.menu')} type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -91,7 +92,7 @@ const Painel = () => {
                         </button>
                         <div className="collapse navbar-collapse flex-column" id="navbarSupportedContent">
                             <div style={{ position: 'relative;' }} className="m-auto">
-                                <hgroup role="group" aria-roledescription="Heading group" className='position-relative d-flex flex-column text-white align-items-center'>
+                                <hgroup id='main' role="group" aria-roledescription="Heading group" className='position-relative d-flex flex-column text-white align-items-center' title="Olá, meu nome é André Akira. Sou desenvolvedor front-end">
                                     <h1 className='mt-4 azul painel_nome'>Portfolio | DevAndreAkira</h1>
                                     <img src={sazonImages([logoPascoa, logoPascoa, logoBruxo, logoNatal], logo)} alt="DevAndreAkira" width="250" height="250" className="logo" title="DevAndreAkira" />
                                     <ReactAudioPlayer
