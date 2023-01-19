@@ -98,8 +98,8 @@ const Painel = () => {
                                         src={laugh}
                                         controls
                                     />
-                                    <h3 className='painel_nome p-0 m-0 mb-1' aria-roledescription={i18n.t('dev.front')}>{i18n.t('dev.front')}</h3>
-                                    <h2 className='painel_nome p-0 m-0 mb-4'>{i18n.t('ola.ola')} André Akira</h2>
+                                    <h2 className='painel_nome p-0 m-0 mb-1' aria-roledescription={i18n.t('dev.front')}>{i18n.t('dev.front')}</h2>
+                                    <h3 className='painel_nome p-0 m-0 mb-4'>{i18n.t('ola.ola')} André Akira</h3>
                                 </hgroup>
                                 <div className='mb-4 idiomas'>
                                     <button type="button" className="btn btn_small" onClick={handleSelectChange1} aria-label="Button" value="Inglês" title={i18n.t('btn_access.title_en')}>
