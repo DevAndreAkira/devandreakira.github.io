@@ -83,7 +83,7 @@ const Painel = () => {
         <>
             <header className="col-12 painel slideUp">
                 <nav className="navbar navbar-expand-lg navbar-light flex-column">
-                    <a href="#main" className='px-5 pt-0 d-none d-lg-block' accesskey="1" style={{position: 'absolute', top: 20}}>1- Principal</a>
+                    <a href="#main" className='px-5 pt-0 d-none d-lg-block' title='Accesskey: Alt + 1 ou Alt + Shit + 1' accesskey="1" style={{position: 'absolute', top: 20}}>1- Principal</a>
                     <div className="container-fluid">
                         <button className="navbar-toggler" value="Menu" title={i18n.t('btn_access.menu')} type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
