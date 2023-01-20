@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c027168e.css",
-    "main.js": "/static/js/main.695bd2bd.js",
+    "main.js": "/static/js/main.a02d9b07.js",
     "static/media/bg.webp": "/static/media/bg.9567fd657a18f59ffcbf.webp",
     "static/media/anfarmag.png": "/static/media/anfarmag.3979fe611e552a9bffe2.png",
     "static/media/roma2.jpg": "/static/media/roma2.4dd511b386949bf49909.jpg",
@@ -65,10 +65,10 @@
     "static/media/remove-dotspace-min.jpeg": "/static/media/remove-dotspace-min.7ca016df0036eb6f8589.jpeg",
     "index.html": "/index.html",
     "main.c027168e.css.map": "/static/css/main.c027168e.css.map",
-    "main.695bd2bd.js.map": "/static/js/main.695bd2bd.js.map"
+    "main.a02d9b07.js.map": "/static/js/main.a02d9b07.js.map"
   },
   "entrypoints": [
     "static/css/main.c027168e.css",
-    "static/js/main.695bd2bd.js"
+    "static/js/main.a02d9b07.js"
   ]
 }
