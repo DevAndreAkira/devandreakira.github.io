@@ -16,7 +16,7 @@ import remove from '../../assets/img/remove-dotspace-min.jpeg';
 import cloudy from '../../assets/img/cloudy.jpeg';
 import anfarmag from '../../assets/img/anfarmag.png';
 import bunge from '../../assets/img/bunge1.jpg';
-import interativa from '../../assets/img/interativa.jpg';
+import interativa from '../../assets/img/wiz.png';
 
 import roma2 from '../../assets/img/roma2.jpg';
 import a32 from '../../assets/img/a3tech2.jpg';
@@ -26,7 +26,7 @@ import remove2 from '../../assets/img/dot2.jpg';
 import cloudy2 from '../../assets/img/clo2.jpg';
 import anfarmag2 from '../../assets/img/anfarmag2.jpg';
 import bunge2 from '../../assets/img/bunge2.jpg';
-import interativa2 from '../../assets/img/interativa2.jpg';
+import interativa2 from '../../assets/img/wiz2.jpg';
 
 import roma3 from '../../assets/img/roma3.jpg';
 import a33 from '../../assets/img/a3tech3.jpg';
@@ -36,7 +36,7 @@ import remove3 from '../../assets/img/dot3.jpg';
 import cloudy3 from '../../assets/img/clo3.jpg';
 import anfarmag3 from '../../assets/img/anfarmag3.jpg';
 import bunge3 from '../../assets/img/bunge3.jpg';
-import interativa3 from '../../assets/img/interativa3.jpg';
+import interativa3 from '../../assets/img/wiz3.jpg';
 
 import html from '../../assets/img/html.png';
 import css from '../../assets/img/css.png';
@@ -95,7 +95,7 @@ const Portfolio = () => {
             "Cloudy - 2022",
             "Anfarmag - 2022",
             "Academia de negócios Bunge - 2022",
-            "Promoção Interativa - 2022"
+            "Plataforma Wiz.member - 2022"
         ],
         img: [
             a3,
@@ -138,7 +138,7 @@ const Portfolio = () => {
             "https://selecao-businessintegrator.devandreakira.repl.co/",
             "https://areadoassociado.anfarmag.org.br/login",
             "https://academiadenegociosbunge.com.br/",
-            "https://promocaointerativa.com.br/"
+            "https://wizmember.wizard.com.br/aluno"
         ]
     }
 
@@ -240,7 +240,7 @@ const Portfolio = () => {
                                         {projetos.titulo[idx] === "Cloudy - 2022" ? <><img width="50" height="50" src={bootstrap} alt="" /><img width="50" height="50" src={sass} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Anfarmag - 2022" ? <><img width="50" height="50" src={seleniumIde} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Academia de negócios Bunge - 2022" ? <><img width="50" height="50" src={php} alt="" /></> : <></>}
-                                        {projetos.titulo[idx] === "Promoção Interativa - 2022" ? <><img width="50" height="50" alt="" src={bootstrap} /></> : <></>}
+                                        {projetos.titulo[idx] === "Plataforma Wiz.member - 2022" ? <><img width="50" height="50" alt="" src={bootstrap} /><img width="50" height="50" alt="" src={php} /></> : <></>}
                                     </div>
 
                                     <a href={projetos.url[idx]} target="_blank" rel="noreferrer" className="btn_slider">{i18n.t('projetos.botao')}</a>
@@ -276,7 +276,7 @@ const Portfolio = () => {
                                         {projetos.titulo[idx] === "Cloudy - 2022" ? <><img width="50" height="50" src={bootstrap} alt="" /><img width="50" height="50" src={sass} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Anfarmag - 2022" ? <><img width="50" height="50" src={seleniumIde} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Academia de negócios Bunge - 2022" ? <><img width="50" height="50" src={php} alt="" /></> : <></>}
-                                        {projetos.titulo[idx] === "Promoção Interativa - 2022" ? <><img width="50" height="50" alt="" src={bootstrap} /></> : <></>}
+                                        {projetos.titulo[idx] === "Plataforma Wiz.member - 2022" ? <><img width="50" height="50" alt="" src={bootstrap} /><img width="50" height="50" alt="" src={php} /></> : <></>}
                                     </div>
                                     <br /><br />
                                     <a href={projetos.url[idx]} target="_blank" rel="noreferrer" className="btn_slider">{i18n.t('projetos.botao')}</a>
@@ -312,7 +312,7 @@ const Portfolio = () => {
                                         {projetos.titulo[idx] === "Cloudy - 2022" ? <><img width="50" height="50" src={bootstrap} alt="" /><img width="50" height="50" src={sass} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Anfarmag - 2022" ? <><img width="50" height="50" src={seleniumIde} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Academia de negócios Bunge - 2022" ? <><img width="50" height="50" src={php} alt="" /></> : <></>}
-                                        {projetos.titulo[idx] === "Promoção Interativa - 2022" ? <><img width="50" height="50" alt="" src={bootstrap} /></> : <></>}
+                                        {projetos.titulo[idx] === "Plataforma Wiz.member - 2022" ? <><img width="50" height="50" alt="" src={bootstrap} /><img width="50" height="50" alt="" src={php} /></> : <></>}
                                     </div>
                                     <br /><br />
                                     <a href={projetos.url[idx]} target="_blank" rel="noreferrer" className="btn_slider">{i18n.t('projetos.botao')}</a>

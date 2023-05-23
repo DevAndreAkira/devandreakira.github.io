@@ -57,6 +57,7 @@
 }
 
 .hobbies .card {
+    z-index: -1;
     transition: 0.5s;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);

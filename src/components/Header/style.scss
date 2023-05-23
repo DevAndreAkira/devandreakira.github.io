@@ -224,6 +224,16 @@ div.none,
     margin-right: 5px;
 }
 
+#root>div>div>main>div.row.row-cols-1.row-cols-md-12>div,
+#uncontrolled-tab-example-tabpane-home>div {
+    max-height: 335px;
+    overflow-y: scroll;
+}
+
+#root {
+    max-height: 100vh;
+}
+
 @media (min-width: 992px) {
 
     #navbarSupportedContent>ul {
@@ -372,8 +382,16 @@ div.none,
     // }
 }
 
-@media(max-width:991px){
+@media(max-width:991px) {
     body {
         background: var(--tertiary-color) !important;
+    }
+}
+
+@media(max-width:464px) {
+
+    #root>div>div>main>div.row.row-cols-1.row-cols-md-12>div,
+    #uncontrolled-tab-example-tabpane-home>div {
+        max-height: 275px;
     }
 }

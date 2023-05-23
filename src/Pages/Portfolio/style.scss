@@ -18,7 +18,7 @@
 
 div > div.carousel-inner > div > img {
     border-radius: 10px !important;
-    margin: -100px 0;
+    margin: -120px 0;
 }
 
 div.carousel-inner > div:nth-child(n) > div > h3 {
@@ -76,6 +76,8 @@ div.carousel-inner > div:nth-child(n) > div > a {
 @media(max-width:1200px){
     div > div.carousel-inner > div > img {
         margin: 0;
+        max-height: 300px;
+        object-fit: cover;
     }
 }
 

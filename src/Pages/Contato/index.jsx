@@ -63,7 +63,7 @@ const Contato = () => {
                 <section>
                     <div className="d-flex justify-content-between align-items-center titulo">
                         <h1 className='titles text-white pt-3 pb-3 pb-md-0 h3'>{i18n.t('contato.titulo')}</h1>
-                        <div className='mb-4 idiomas'>
+                        <div className='mb-2 mb-md-4 idiomas'>
                             <button type="button" className="btn btn_small" onClick={handleSelectChange1} aria-label="Button" title={i18n.t('btn_access.title_en')}>
                                 <div className="container_icon_flag">
                                     <div className="_en-US">
