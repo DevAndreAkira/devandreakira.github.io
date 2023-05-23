@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.c027168e.css",
-    "main.js": "/static/js/main.a02d9b07.js",
+    "main.css": "/static/css/main.bd030c4f.css",
+    "main.js": "/static/js/main.4d71bacc.js",
+    "static/media/wiz.png": "/static/media/wiz.0448ba748a6ef656c0f4.png",
     "static/media/bg.webp": "/static/media/bg.9567fd657a18f59ffcbf.webp",
     "static/media/anfarmag.png": "/static/media/anfarmag.3979fe611e552a9bffe2.png",
     "static/media/roma2.jpg": "/static/media/roma2.4dd511b386949bf49909.jpg",
+    "static/media/wiz2.jpg": "/static/media/wiz2.0ba4c36eb0ae8857f359.jpg",
     "static/media/soccer.png": "/static/media/soccer.76894c7aa0e56be9d4c4.png",
     "static/media/roma3.jpg": "/static/media/roma3.b49b3f02de6bd80df935.jpg",
     "static/media/arcane.png": "/static/media/arcane.54af77920e0a27598ba0.png",
     "static/media/roma.jpeg": "/static/media/roma.e377f93781ecadc52787.jpeg",
     "static/media/a3tech.jpeg": "/static/media/a3tech.4b7d7f77cbae8e51488c.jpeg",
     "static/media/bunge1.jpg": "/static/media/bunge1.f7ef1a769849a5828b88.jpg",
+    "static/media/wiz3.jpg": "/static/media/wiz3.3c48c0a198bffd82647d.jpg",
     "static/media/canva.png": "/static/media/canva.5aa639e948d5c255f4c7.png",
-    "static/media/interativa.jpg": "/static/media/interativa.0471c78fa049acc6db67.jpg",
     "static/media/labufalina.jpeg": "/static/media/labufalina.b688eafbe1fce2209ceb.jpeg",
     "static/media/a3tech2.jpg": "/static/media/a3tech2.852179090828a96aac37.jpg",
     "static/media/la2.jpg": "/static/media/la2.13f0a8a9af8265f94aa7.jpg",
     "static/media/elo.png": "/static/media/elo.7ad7ec712d8cd36ef6d9.png",
-    "static/media/interativa2.jpg": "/static/media/interativa2.d1fba3a3976f0f611a52.jpg",
     "static/media/mega.jpg": "/static/media/mega.a44c8de43143578857bc.jpg",
     "static/media/bootstrap.png": "/static/media/bootstrap.e147534b18ab64b2a787.png",
     "static/media/sqlServer.png": "/static/media/sqlServer.56563703fa61878c8976.png",
@@ -29,7 +30,6 @@
     "static/media/sass.png": "/static/media/sass.4df2e29e0a45ba87ea28.png",
     "static/media/a3tech3.jpg": "/static/media/a3tech3.0ddda8a2724e9807e1dd.jpg",
     "static/media/la3.jpg": "/static/media/la3.03ba95b0689ee2f3268c.jpg",
-    "static/media/interativa3.jpg": "/static/media/interativa3.b592a75581d880c72309.jpg",
     "static/media/gradle.png": "/static/media/gradle.cf49253f012afa28888e.png",
     "static/media/electron.png": "/static/media/electron.09269f94d833eeb8f326.png",
     "static/media/cordova.png": "/static/media/cordova.9d771b62544878b11034.png",
@@ -64,11 +64,11 @@
     "static/media/dot2.jpg": "/static/media/dot2.f94c1a90cad76703a054.jpg",
     "static/media/remove-dotspace-min.jpeg": "/static/media/remove-dotspace-min.7ca016df0036eb6f8589.jpeg",
     "index.html": "/index.html",
-    "main.c027168e.css.map": "/static/css/main.c027168e.css.map",
-    "main.a02d9b07.js.map": "/static/js/main.a02d9b07.js.map"
+    "main.bd030c4f.css.map": "/static/css/main.bd030c4f.css.map",
+    "main.4d71bacc.js.map": "/static/js/main.4d71bacc.js.map"
   },
   "entrypoints": [
-    "static/css/main.c027168e.css",
-    "static/js/main.a02d9b07.js"
+    "static/css/main.bd030c4f.css",
+    "static/js/main.4d71bacc.js"
   ]
 }
