@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: devandreakira.github.io
-Token: 6d31013e85145f29504638382bfefe074575673186f347e0d40722a220a1e4dd
