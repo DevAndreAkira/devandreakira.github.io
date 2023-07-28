@@ -125,7 +125,7 @@ const Historico = () => {
                         </div>
                         <h2 className='m-0 p-0'>{i18n.t('tempoExp')}{Math.round(localStorage.getItem('totalTime') / 12) + " " + i18n.t('duracao.duracaoTempo') + ((Number(localStorage.getItem('totalTime') / 12 > 1)) ? 's ' : " ") + (localStorage.getItem('totalTime') % 12 === 0 ? '' : ("e " + localStorage.getItem('totalTime') % 12) + ((localStorage.getItem('totalTime') % 12) === 1 ? " mês" : " meses"))}</h2>
                     </section>
-                    <div className="row row-cols-1 row-cols-md-12">
+                    <div className="row row-cols-1 row-cols-md-12 m-auto">
                         <Row xs={1} md={2} className="g-2">
                             {Array.from({ length: 5 }).map((_, idx) => (
                                 <Col>
@@ -156,7 +156,7 @@ const Historico = () => {
                                                     {(cardsInfos.title[idx] === "Hands-On Tecnologia da Informação") ? cardsInfos.status : <br/>}
                                                 </Card.Text>
                                             </div>
-                                            <img src={cardsInfos.imgs[idx]} className="logoEmpresas" width='50px' height="50px" alt="empresa" />
+                                            <img src={cardsInfos.imgs[idx]} className="logoEmpresas my-auto" width='50px' height="50px" alt="empresa" />
                                         </div>
                                         <Card.Text>{cardsInfos.periodo[idx]}</Card.Text>
                                     </Card>

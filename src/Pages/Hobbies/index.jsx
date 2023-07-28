@@ -96,15 +96,15 @@ const Hobbies = () => {
             'https://devandreakira.github.io/soccer_pixijs/'
         ],
         gameTrans: [
-            `${i18n.t('hobbies.generator1')}`,
+            // `${i18n.t('hobbies.generator1')}`,
             `${i18n.t('hobbies.generator2')}`,
         ],
         imgTrans: [
-            mega,
+            // mega,
             noImage,
         ],
         urlTrans: [
-            'https://gerador-de-mega-senna.devandreakira.repl.co/',
+            // 'https://gerador-de-mega-senna.devandreakira.repl.co/',
             'https://devandreakira.github.io/generator_plugin_commit/'
         ]
     }
