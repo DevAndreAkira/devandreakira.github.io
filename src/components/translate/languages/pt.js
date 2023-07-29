@@ -92,6 +92,7 @@ const messages = {
                 game2: "Jo-ken-po RPG",
                 game3: "Game Memory",
                 game4: "Soccer Goal",
+                game5: "Bug Swat",
                 traducao: "Geradores",
                 generator1: "Números da Mega Senna",
                 generator2: "Gerador Commit Plugin WP",

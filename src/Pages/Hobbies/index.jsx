@@ -13,6 +13,7 @@ import box from '../../assets/img/front-box.png';
 import arcane from '../../assets/img/arcane.png';
 import memory from '../../assets/img/memory.png';
 import soccer from '../../assets/img/soccer.png';
+import bug1 from '../../assets/img/bug.jpg';
 import noImage from '../../assets/img/no_image.png';
 import mega from '../../assets/img/mega.jpg';
 // import divinity from '../../assets/img/divinity.png';
@@ -82,18 +83,21 @@ const Hobbies = () => {
             `${i18n.t('hobbies.game2')}`,
             `${i18n.t('hobbies.game3')}`,
             `${i18n.t('hobbies.game4')}`,
+            `${i18n.t('hobbies.game5')}`,
         ],
         imgGames: [
             box,
             arcane,
             memory,
-            soccer
+            soccer,
+            bug1,
         ],
         urlGames: [
             'https://devandreakira.github.io/front-box',
             'https://devandreakira.github.io/jo-ken-po/',
             'https://devandreakira.github.io/memory-game/',
-            'https://devandreakira.github.io/soccer_pixijs/'
+            'https://devandreakira.github.io/soccer_pixijs/',
+            'https://devandreakira.github.io/bug_swat/',
         ],
         gameTrans: [
             // `${i18n.t('hobbies.generator1')}`,
@@ -163,7 +167,7 @@ const Hobbies = () => {
                                                 <Card.Img variant="bottom" src={hobbies.imgGames[idx]} width="300" height="200" alt={hobbies.games[idx]} />
                                                 <Card.Body>
                                                     <Card.Title>{hobbies.games[idx]} <CgBrowser /></Card.Title>
-                                                    <Card.Title className='subTitle-card'>2022</Card.Title>
+                                                    <Card.Title className='subTitle-card'>{idx >= 4 ? '2023' : '2022'}</Card.Title>
                                                 </Card.Body>
                                             </a>
                                         </Card>
