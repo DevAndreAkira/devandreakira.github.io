@@ -59,7 +59,7 @@ const Header = () => {
                                     <li className="nav-item">
                                         <Link className="navbar-brand nav-link text-center" to="/"><img src={sazonImages([logoPascoa, logoArvore, logoBruxo, logoNatal], logo)} alt="Dev André Akira"
                                             width="120" height="120" className="logo" />
-                                            <p className='mb-0 mb-lg-4'>{i18n.t('ola.ola')}<br />André Akira</p>
+                                            <pre className='mb-0 mb-lg-4'>{i18n.t('ola.ola')}<br /></pre>
                                         </Link>
                                     </li>
                                     <li className="nav-item d-flex align-items-center">

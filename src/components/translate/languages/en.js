@@ -7,7 +7,7 @@ const messages = {
                 title_pt: 'Change language to Brazilian Portuguese'
             },
             ola: {
-                ola: "Hi, I'm André Akira"
+                ola: "Hi, I'm \nAndré Akira"
             },
             dev: {
                 front: 'Front-end Developer'
