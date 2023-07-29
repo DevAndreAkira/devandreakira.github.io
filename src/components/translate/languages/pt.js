@@ -7,7 +7,7 @@ const messages = {
                 title_pt: 'Alterar idioma para português brasileiro'
             },
             ola: {
-                ola: 'Olá, meu nome é '
+                ola: 'Olá, meu nome é André Akira'
             },
             dev: {
                 front: 'Desenvolvedor Front-end'
@@ -93,6 +93,7 @@ const messages = {
                 game3: "Game Memory",
                 game4: "Soccer Goal",
                 game5: "Bug Swat",
+                game6: "Jogo da velha",
                 traducao: "Geradores",
                 generator1: "Números da Mega Senna",
                 generator2: "Gerador Commit Plugin WP",

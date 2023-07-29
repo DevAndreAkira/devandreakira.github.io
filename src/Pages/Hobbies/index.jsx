@@ -13,7 +13,8 @@ import box from '../../assets/img/front-box.png';
 import arcane from '../../assets/img/arcane.png';
 import memory from '../../assets/img/memory.png';
 import soccer from '../../assets/img/soccer.png';
-import bug1 from '../../assets/img/bug.jpg';
+import bug from '../../assets/img/bug.jpg';
+import velha from '../../assets/img/velha.png';
 import noImage from '../../assets/img/no_image.png';
 import mega from '../../assets/img/mega.jpg';
 // import divinity from '../../assets/img/divinity.png';
@@ -84,13 +85,15 @@ const Hobbies = () => {
             `${i18n.t('hobbies.game3')}`,
             `${i18n.t('hobbies.game4')}`,
             `${i18n.t('hobbies.game5')}`,
+            `${i18n.t('hobbies.game6')}`,
         ],
         imgGames: [
             box,
             arcane,
             memory,
             soccer,
-            bug1,
+            bug,
+            velha,
         ],
         urlGames: [
             'https://devandreakira.github.io/front-box',
@@ -98,6 +101,7 @@ const Hobbies = () => {
             'https://devandreakira.github.io/memory-game/',
             'https://devandreakira.github.io/soccer_pixijs/',
             'https://devandreakira.github.io/bug_swat/',
+            'https://devandreakira.github.io/jogo_velha/',
         ],
         gameTrans: [
             // `${i18n.t('hobbies.generator1')}`,

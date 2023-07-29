@@ -94,13 +94,13 @@ const Painel = () => {
                             <div style={{ position: 'relative;' }} className="m-auto">
                                 <hgroup id='main' role="group" aria-roledescription="Heading group" className='position-relative d-flex flex-column text-white align-items-center' title="Olá, meu nome é André Akira. Sou desenvolvedor front-end">
                                     <h1 className='mt-3 mb-0 mt-md-4 azul painel_nome'>Portfolio | DevAndreAkira</h1>
-                                    <img src={sazonImages([logoPascoa, logoPascoa, logoBruxo, logoNatal], logo)} alt="DevAndreAkira" width="250" height="250" className="logo" title="DevAndreAkira" />
+                                    <img src={sazonImages([logoPascoa, logoPascoa, logoBruxo, logoNatal], logo)} alt="DevAndreAkira" width="250" height="250" className="logo" title="DevAndreAkira" loading="eager" />
                                     <ReactAudioPlayer
                                         src={laugh}
                                         controls
                                     />
                                     <h2 className='painel_nome p-0 m-0 mb-1' aria-roledescription={i18n.t('dev.front')}>{i18n.t('dev.front')}</h2>
-                                    <h3 className='painel_nome p-0 m-0 mb-2 mb-md-4'>{i18n.t('ola.ola')} André Akira</h3>
+                                    <h3 className='painel_nome p-0 m-0 mb-2 mb-md-4'>{i18n.t('ola.ola')}</h3>
                                 </hgroup>
                                 <div className='mb-1 mb-md-4 idiomas'>
                                     <button type="button" className="btn btn_small" onClick={handleSelectChange1} aria-label="Button" value="Inglês" title={i18n.t('btn_access.title_en')}>

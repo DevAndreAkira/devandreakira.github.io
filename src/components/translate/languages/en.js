@@ -1,13 +1,13 @@
 const messages = {
     en: {
         translations: {
-            btn_access:{
+            btn_access: {
                 menu: 'Mobile menu',
                 title_en: 'Change language to English',
                 title_pt: 'Change language to Brazilian Portuguese'
             },
             ola: {
-                ola: "Hi, I'm "
+                ola: "Hi, I'm André Akira"
             },
             dev: {
                 front: 'Front-end Developer'
@@ -95,6 +95,7 @@ const messages = {
                 game3: "Game Memory",
                 game4: "Soccer Goal",
                 game5: "Bug Swat",
+                game6: "Tic Tac Toe",
                 traducao: "Generators",
                 generator1: "Mega Senna Numbers",
                 generator2: "Generator Commit Plugin WP",
