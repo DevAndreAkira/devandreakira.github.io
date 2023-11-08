@@ -97,6 +97,7 @@ const messages = {
                 traducao: "Geradores",
                 generator1: "Números da Mega Senna",
                 generator2: "Gerador Commit Plugin WP",
+                generator3: "Gerador de Números",
             },
             contato: {
                 titulo: "Curtiu? Entre em contato",

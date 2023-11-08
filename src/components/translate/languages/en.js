@@ -99,6 +99,7 @@ const messages = {
                 traducao: "Generators",
                 generator1: "Mega Senna Numbers",
                 generator2: "Generator Commit Plugin WP",
+                generator3: "Numbers generator",
             },
             contato: {
                 titulo: "Contact me",

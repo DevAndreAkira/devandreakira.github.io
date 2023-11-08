@@ -25,20 +25,6 @@ import './style.scss'
 
 const Hobbies = () => {
 
-    // function responsiveW() {
-    //     let imgs = document.querySelectorAll(".hobbies img");
-    //     imgs.forEach((e, index) => {
-    //         // WIDTH
-    //         // console.log(document.querySelectorAll(".card")[index].offsetWidth);
-    //         imgs[index].style.width = `${(document.querySelectorAll(".card")[index].offsetWidth - 20)}px`;
-    //     })
-    // }
-
-    // window.onresize = function () {
-    //     responsiveW();
-    // }
-
-
     const I18N_STORAGE_KEY = 'i18nextLng'
 
     const handleSelectChange1 = event => {
@@ -56,27 +42,6 @@ const Hobbies = () => {
         )
         window.location.reload()
     }
-
-    // window.onload = () => {
-    //     document.querySelector("#navbarSupportedContent > ul > li:nth-child(6) > a").classList.add("active");
-
-    //     let array = document.querySelectorAll("div > div:nth-child(n) > div > a > img");
-    //     array.forEach((e, index) => {
-    //         const heightOutput = document.querySelector("#uncontrolled-tab-example-tabpane-home > div > div:nth-child(1) > div > a > img").offsetHeight;
-    //         const widthOutput = document.querySelector("#uncontrolled-tab-example-tabpane-home > div > div:nth-child(1) > div > a > img").offsetWidth;
-    //         array[index].style.minHeight = `${heightOutput}px`;
-    //         array[index].style.width = `${widthOutput}px`;
-    //     })
-
-    //     // TENTANDO ARRUMAR A LARGURA
-    //     let arrayBtn = document.querySelectorAll("main .hobbies button");
-    //     arrayBtn.forEach((e, index) => {
-    //         arrayBtn[index].onclick = function () {
-    //             responsiveW();
-    //         }
-    //     })
-    // 
-    // }
 
     var hobbies = {
         games: [
@@ -106,14 +71,17 @@ const Hobbies = () => {
         gameTrans: [
             // `${i18n.t('hobbies.generator1')}`,
             `${i18n.t('hobbies.generator2')}`,
+            `${i18n.t('hobbies.generator3')}`,
         ],
         imgTrans: [
             // mega,
             noImage,
+            noImage,
         ],
         urlTrans: [
             // 'https://gerador-de-mega-senna.devandreakira.repl.co/',
-            'https://devandreakira.github.io/generator_plugin_commit/'
+            'https://devandreakira.github.io/generator_plugin_commit/',
+            'https://codepen.io/DevAndreAkira/full/qBLMzPe'
         ]
     }
 
@@ -189,7 +157,7 @@ const Hobbies = () => {
                                                 <Card.Img variant="bottom" src={hobbies.imgTrans[idx]} width="300" height="200" alt={hobbies.gameTrans[idx]} />
                                                 <Card.Body>
                                                     <Card.Title>{hobbies.gameTrans[idx]} <CgBrowser /></Card.Title>
-                                                    <Card.Title className='subTitle-card'>{hobbies.gameTrans[idx] === 'Números da Mega Senna' ? "2020" : "2022"}</Card.Title>
+                                                    <Card.Title className='subTitle-card'>{hobbies.gameTrans[idx] === 'Gerador Commit Plugin WP' ? "2020" : "2022"}</Card.Title>
                                                     {/* <Card.Text>
                                             {i18n.t('hobbies.descTrans1')}
                                         </Card.Text>
