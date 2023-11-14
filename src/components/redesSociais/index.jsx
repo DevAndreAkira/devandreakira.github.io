@@ -14,7 +14,7 @@ const RedesSociais = () => {
                 </form>
                 <ul className="d-flex align-items-center mobile_social">
                     <li>
-                        <a href="https://www.linkedin.com/in/andr%C3%A9-akira-kusaba-257510138/" className="nav-link" aria-label="Linkedin" target="_blank" title='Linkedin' name='Linkedin' rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/andr%C3%A9-a-257510138/" className="nav-link" aria-label="Linkedin" target="_blank" title='Linkedin' name='Linkedin' rel="noreferrer">
                             <FaLinkedinIn />
                         </a>
                     </li>
