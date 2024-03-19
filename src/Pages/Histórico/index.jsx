@@ -34,11 +34,11 @@ const Historico = () => {
         window.location.reload()
     }
 
-    function dataNow(){
+    function dataNow() {
         var dataAtual = new Date();
         var mes = (dataAtual.getMonth() + 1);
         var ano = dataAtual.getFullYear();
-        return (mes + "/" + ano);
+        return ((mes < 12 ? `0${mes}` : mes) + "/" + ano);
     }
 
     var cardsInfos = {
@@ -56,13 +56,6 @@ const Historico = () => {
             `${i18n.t('cargos.cargo4')}`,
             `${i18n.t('cargos.cargo5')}`,
         ],
-        periodo: [
-            '02/2020 - 04/2020',
-            '06/2020 - 10/2021',
-            '06/2021 - 10/2021',
-            '09/2021 - 11/2021',
-            `01/2022 - ${dataNow()}`,
-        ],
         quantidadeNum: [
             `${i18n.t('duracao.duracao1.num')}`,
             `${i18n.t('duracao.duracao2.num')}`,
@@ -70,17 +63,62 @@ const Historico = () => {
             `${i18n.t('duracao.duracao4.num')}`,
             `${i18n.t('duracao.duracao5.num')}`,
         ],
-        quantidadeTime: [
-            `${i18n.t('duracao.duracao1.time')}`,
-            `${i18n.t('duracao.duracao2.time')}`,
-            `${i18n.t('duracao.duracao3.time')}`,
-            `${i18n.t('duracao.duracao4.time')}`,
-            `${i18n.t('duracao.duracao5.time')}`,
+        periodo: [
+            '02/2020 - 04/2020',
+            '06/2020 - 10/2021',
+            '06/2021 - 10/2021',
+            '09/2021 - 11/2021',
+            `01/2022 - ${dataNow()}`,
         ],
         status: [
             `${i18n.t('duracao.status')}`,
         ],
         imgs: [input, rlti, amz, elo, hands]
+    }
+
+    function formatacao(element) {
+        let arrayDatas = element.split(" - ");
+        let mapData = arrayDatas.map((x) => x.split("/"))
+
+        return mapData
+    }
+
+    let obj_Calculo = {
+        arrayTotal: [],
+
+        contadorTempo(element) {
+            dataNow();
+
+            let result;
+            let mapData = formatacao(element);
+
+            if (mapData[0][1] === mapData[1][1]) {
+                result = mapData[1][0] - mapData[0][0];
+                obj_Calculo.arrayTotal.push(result);
+                return result + ' meses'
+            }
+            else {
+                let resultMeses = mapData[1][0] - mapData[0][0];
+                let resultAno = mapData[1][1] - mapData[0][1];
+                const pluralMes = resultMeses > 1 ? 'meses' : 'mês';
+                const pluralAno = resultAno > 1 ? 'anos' : 'ano';
+                obj_Calculo.arrayTotal.push(Number(resultMeses) + Number(resultAno) * 12);
+                console.log(obj_Calculo.arrayTotal);
+
+                const agregador = obj_Calculo.arrayTotal.reduce(
+                    (accumulator, currentValue) => accumulator + currentValue,
+                    0,
+                );
+                localStorage.setItem("totalTempo", agregador)
+
+                return resultAno + " " + pluralAno + " e " + resultMeses + " " + pluralMes;
+            }
+        },
+        totalTempo() {
+            let total = localStorage.getItem("totalTempo");
+            let result = `${Math.round(total / 12)} anos e ${total % 12} ${total % 12 > 1 ? 'meses' : 'mês'}`;
+            return result
+        }
     }
 
     return (
@@ -93,7 +131,7 @@ const Historico = () => {
                         <div className="titulo">
                             <h1 className='titles text-white pt-3 pb-3 pb-md-0 h3'>{i18n.t('titles.phistorico')}</h1>
                             <div className='mb-4 idiomas'>
-                                <button type="button" className="btn btn_small" onClick={handleSelectChange1} aria-label="Button"  title={i18n.t('btn_access.title_en')}>
+                                <button type="button" className="btn btn_small" onClick={handleSelectChange1} aria-label="Button" title={i18n.t('btn_access.title_en')}>
                                     <div className="container_icon_flag">
                                         <div className="_en-US">
                                             <div className="squad_eua">
@@ -110,7 +148,7 @@ const Historico = () => {
                                     </div>
                                     {/* <img loading="lazy" title="Idioma inglês" src={eua} alt="Idioma - Inglês" className="_en-US" width="45" height="45" /> */}
                                 </button>
-                                <button type="button" className="btn btn_small" onClick={handleSelectChange2} aria-label="Button"  title={i18n.t('btn_access.title_pt')}>
+                                <button type="button" className="btn btn_small" onClick={handleSelectChange2} aria-label="Button" title={i18n.t('btn_access.title_pt')}>
                                     <div className="container_icon_flag">
                                         <div className="_pt-BR">
                                             <div className="gold_br">
@@ -119,11 +157,10 @@ const Historico = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* <img loading="lazy" title="Idioma português" src={brasil} alt="Idioma - Português" className="_pt-BR" width="45" height="45" /> */}
                                 </button>
                             </div>
                         </div>
-                        <h2 className='m-0 p-0'>{i18n.t('tempoExp')}{Math.round(localStorage.getItem('totalTime') / 12) + " " + i18n.t('duracao.duracaoTempo') + ((Number(localStorage.getItem('totalTime') / 12 > 1)) ? 's ' : " ") + (localStorage.getItem('totalTime') % 12 === 0 ? '' : ("e " + localStorage.getItem('totalTime') % 12) + ((localStorage.getItem('totalTime') % 12) === 1 ? " mês" : " meses"))}</h2>
+                        <h2 className='m-0 p-0'>{i18n.t('tempoExp')} <span id="totalN">{obj_Calculo.totalTempo()}</span></h2>
                     </section>
                     <div className="row row-cols-1 row-cols-md-12 m-auto">
                         <Row xs={1} md={2} className="g-2">
@@ -138,22 +175,11 @@ const Historico = () => {
                                                 </Card.Text>
                                                 <Card.Text>
                                                     <span className='time'>
-                                                        {
-                                                            (cardsInfos.quantidadeNum[idx] >= 12 ?
-                                                                Math.round(cardsInfos.quantidadeNum[idx] / 12) + (Math.round(cardsInfos.quantidadeNum[idx] / 12) > 1
-                                                                    ? " " + i18n.t('duracao.duracaoTempo') + ((Number(localStorage.getItem('totalTime') / 12 > 1)) ? 's ' : " ") + (Math.round(cardsInfos.quantidadeNum[idx] % 12) === 0 ? '' : cardsInfos.quantidadeNum[idx] % 12) :
-                                                                    " " + i18n.t('duracao.duracaoTempo') + ((Math.round(cardsInfos.quantidadeNum[idx] / 12) > 1) ? 's ' : " ") + (Math.round(cardsInfos.quantidadeNum[idx] % 12) === 0 ? '' : cardsInfos.quantidadeNum[idx] % 12)) :
-                                                                cardsInfos.quantidadeNum[idx])
-                                                        } 
+                                                        {obj_Calculo.contadorTempo(cardsInfos.periodo[idx])}
                                                     </span>
-                                                    {cardsInfos.quantidadeTime[idx]}
-                                                    {
-                                                        localStorage.setItem("totalTime", Number(cardsInfos.quantidadeNum.reduce((t, n) => Number(t) + Number(n))))
-                                                    }
-                                                    {}
                                                 </Card.Text>
                                                 <Card.Text>
-                                                    {(cardsInfos.title[idx] === "Hands-On Tecnologia da Informação") ? cardsInfos.status : <br/>}
+                                                    {(cardsInfos.title[idx] === "Hands-On Tecnologia da Informação") ? cardsInfos.status : <br />}
                                                 </Card.Text>
                                             </div>
                                             <img src={cardsInfos.imgs[idx]} className="logoEmpresas my-auto" width='50px' height="50px" alt="empresa" />

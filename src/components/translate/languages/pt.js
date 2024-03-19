@@ -58,26 +58,6 @@ const messages = {
                 cargo5: 'Desenvolvedor Front-end',
             },
             duracao: {
-                duracao1: {
-                    num: 2,
-                    time: 'meses'
-                },
-                duracao2: {
-                    num: 16,
-                    time: 'meses'
-                },
-                duracao3: {
-                    num: 4,
-                    time: 'meses'
-                },
-                duracao4: {
-                    num: 2,
-                    time: 'meses'
-                },
-                duracao5: {
-                    num: 12,
-                    time: '',
-                },
                 status: 'Trabalhando atualmente ✔️',
                 duracaoTempo: "ano",
             },
