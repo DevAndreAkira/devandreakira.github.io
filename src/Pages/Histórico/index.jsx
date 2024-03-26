@@ -117,7 +117,7 @@ const Historico = () => {
         totalTempo() {
             let total = localStorage.getItem("totalTempo");
             let result = `${Math.round(total / 12)} anos e ${total % 12} ${total % 12 > 1 ? 'meses' : 'mês'}`;
-            return result
+            return <span id="totalN">{result}</span>
         }
     }
 
@@ -160,7 +160,7 @@ const Historico = () => {
                                 </button>
                             </div>
                         </div>
-                        <h2 className='m-0 p-0'>{i18n.t('tempoExp')} <span id="totalN">{obj_Calculo.totalTempo()}</span></h2>
+                        <h2 className='m-0 p-0'>{i18n.t('tempoExp')} {obj_Calculo.totalTempo()}</h2>
                     </section>
                     <div className="row row-cols-1 row-cols-md-12 m-auto">
                         <Row xs={1} md={2} className="g-2">
