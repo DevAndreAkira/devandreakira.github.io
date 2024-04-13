@@ -11,17 +11,16 @@ import Redes from "../../components/redesSociais";
 import roma from '../../assets/img/roma.jpeg';
 import a3 from '../../assets/img/a3tech.jpeg';
 import labu from '../../assets/img/labufalina.jpeg';
-// import we from '../../assets/img/wefood.jpeg';
 import remove from '../../assets/img/remove-dotspace-min.jpeg';
 import cloudy from '../../assets/img/cloudy.jpeg';
 import anfarmag from '../../assets/img/anfarmag.png';
 import bunge from '../../assets/img/bunge1.jpg';
 import interativa from '../../assets/img/wiz.png';
+import cook from '../../assets/img/cook.png';
 
 import roma2 from '../../assets/img/roma2.jpg';
 import a32 from '../../assets/img/a3tech2.jpg';
 import labu2 from '../../assets/img/la2.jpg';
-// import we2 from '../../assets/img/we2.jpg';
 import remove2 from '../../assets/img/dot2.jpg';
 import cloudy2 from '../../assets/img/clo2.jpg';
 import anfarmag2 from '../../assets/img/anfarmag2.jpg';
@@ -31,7 +30,6 @@ import interativa2 from '../../assets/img/wiz2.jpg';
 import roma3 from '../../assets/img/roma3.jpg';
 import a33 from '../../assets/img/a3tech3.jpg';
 import labu3 from '../../assets/img/la3.jpg';
-// import we3 from '../../assets/img/we3.jpg';
 import remove3 from '../../assets/img/dot3.jpg';
 import cloudy3 from '../../assets/img/clo3.jpg';
 import anfarmag3 from '../../assets/img/anfarmag3.jpg';
@@ -61,6 +59,7 @@ import gradle from '../../assets/img/gradle.png';
 // import xd from '../../assets/img/xd.png';
 import sass from '../../assets/img/sass.png';
 import seleniumIde from '../../assets/img/seleniumIde.png';
+import vue from '../../assets/img/vue.png'
 
 
 import './style.scss'
@@ -89,56 +88,56 @@ const Portfolio = () => {
         titulo: [
             "A3Tech - 2020",
             "La Bufalina - 2020",
-            // "We-food - 2021",
             "Remove DotSpace - 2021",
             "Roma - 2021",
             "Cloudy - 2022",
             "Anfarmag - 2022",
             "Academia de negócios Bunge - 2022",
-            "Plataforma Wiz.member - 2022"
+            "Plataforma Wiz.member - 2022",
+            "Cookin Up - 2024"
         ],
         img: [
             a3,
             labu,
-            // we,
             remove,
             roma,
             cloudy,
             anfarmag,
             bunge,
-            interativa
+            interativa,
+            cook
         ],
         img2: [
             a32,
             labu2,
-            // we2,
             remove2,
             roma2,
             cloudy2,
             anfarmag2,
             bunge2,
-            interativa2
+            interativa2,
+            ''
         ],
         img3: [a33,
             labu3,
-            // we3,
             remove3,
             roma3,
             cloudy3,
             anfarmag3,
             bunge3,
-            interativa3
+            interativa3,
+            ''
         ],
         url: [
             "https://www.a3tech.com.br/",
             "https://www.labufalina.com.br/",
-            // "https://selecao-wefood.devandreakira.repl.co/",
             "https://devandreakira.github.io/remove_dotspace/",
             "https://roma.ind.br/",
             "https://selecao-businessintegrator.devandreakira.repl.co/",
             "https://areadoassociado.anfarmag.org.br/login",
             "https://academiadenegociosbunge.com.br/",
-            "https://wizmember.wizard.com.br/aluno"
+            "https://wizmember.wizard.com.br/aluno",
+            "https://devandreakira.github.io/cookin-up-vue/"
         ]
     }
 
@@ -240,7 +239,7 @@ const Portfolio = () => {
                                         {projetos.titulo[idx] === "Cloudy - 2022" ? <><img width="50" height="50" src={bootstrap} alt="" /><img width="50" height="50" src={sass} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Anfarmag - 2022" ? <><img width="50" height="50" src={seleniumIde} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Academia de negócios Bunge - 2022" ? <><img width="50" height="50" src={php} alt="" /></> : <></>}
-                                        {projetos.titulo[idx] === "Plataforma Wiz.member - 2022" ? <><img width="50" height="50" alt="" src={bootstrap} /><img width="50" height="50" alt="" src={php} /></> : <></>}
+                                        {projetos.titulo[idx] === "Cookin Up - 2024" ? <><img width="50" height="50" alt="" src={vue} /></> : <></>}
                                     </div>
 
                                     <a href={projetos.url[idx]} target="_blank" rel="noreferrer" className="btn_slider">{i18n.t('projetos.botao')}</a>
@@ -277,6 +276,7 @@ const Portfolio = () => {
                                         {projetos.titulo[idx] === "Anfarmag - 2022" ? <><img width="50" height="50" src={seleniumIde} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Academia de negócios Bunge - 2022" ? <><img width="50" height="50" src={php} alt="" /></> : <></>}
                                         {projetos.titulo[idx] === "Plataforma Wiz.member - 2022" ? <><img width="50" height="50" alt="" src={bootstrap} /><img width="50" height="50" alt="" src={php} /></> : <></>}
+                                        {projetos.titulo[idx] === "Cook Up - 2024" ? <><img width="50" height="50" alt="" src={vue} /></> : <></>}
                                     </div>
                                     <br /><br />
                                     <a href={projetos.url[idx]} target="_blank" rel="noreferrer" className="btn_slider">{i18n.t('projetos.botao')}</a>

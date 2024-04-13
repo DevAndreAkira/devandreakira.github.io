@@ -33,6 +33,7 @@ import mySql from '../../assets/img/mySql.png';
 import xd from '../../assets/img/xd.png';
 import sass from '../../assets/img/sass.png';
 import seleniumIde from '../../assets/img/seleniumIde.png';
+import vue from '../../assets/img/vue.png';
 
 import './style.scss'
 
@@ -70,6 +71,7 @@ const Habilidades = () => {
             "Jquery",
             "Sass (Scss)",
             "React",
+            "Vue",
             "Wordpress",
             "Php",
             "SQL Server",
@@ -95,6 +97,7 @@ const Habilidades = () => {
             jquery,
             sass,
             react,
+            vue,
             wordpress,
             php,
             sqlServer,

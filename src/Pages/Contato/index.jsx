@@ -24,7 +24,7 @@ const Contato = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_jtc3zes', 'template_jhet17a', e.target, 'MXUGaZ8yoCfPeQa_9')
+        emailjs.sendForm('service_jtc3zes', 'template_jhet17a', e.target, 'D2oW_4zBjW6w24Uwk')
             .then((result) => {
                 success = true;
                 console.log(result.text);
