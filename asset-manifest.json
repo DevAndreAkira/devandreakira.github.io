@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.5085d22f.css",
-    "main.js": "/static/js/main.3da8e2f5.js",
+    "main.js": "/static/js/main.015bb777.js",
     "static/media/wiz.png": "/static/media/wiz.0448ba748a6ef656c0f4.png",
     "static/media/bg.webp": "/static/media/bg.9567fd657a18f59ffcbf.webp",
+    "static/media/cook.png": "/static/media/cook.8e17166a5bc9849ae2f3.png",
     "static/media/anfarmag.png": "/static/media/anfarmag.3979fe611e552a9bffe2.png",
     "static/media/roma2.jpg": "/static/media/roma2.4dd511b386949bf49909.jpg",
     "static/media/wiz2.jpg": "/static/media/wiz2.0ba4c36eb0ae8857f359.jpg",
@@ -45,6 +46,7 @@
     "static/media/html.png": "/static/media/html.10c000450bc67e537356.png",
     "static/media/anfarmag3.jpg": "/static/media/anfarmag3.166fd06e5b1491505f6d.jpg",
     "static/media/xd.png": "/static/media/xd.dceed75861929d54dacf.png",
+    "static/media/vue.png": "/static/media/vue.90af7e75e5ac3af1a27d.png",
     "static/media/seleniumIde.png": "/static/media/seleniumIde.2b24040b39f777a11c7c.png",
     "static/media/github.png": "/static/media/github.223205ce8f199d5a81a1.png",
     "static/media/ps.png": "/static/media/ps.28bcade4d02391c9bd9e.png",
@@ -66,10 +68,10 @@
     "static/media/remove-dotspace-min.jpeg": "/static/media/remove-dotspace-min.7ca016df0036eb6f8589.jpeg",
     "index.html": "/index.html",
     "main.5085d22f.css.map": "/static/css/main.5085d22f.css.map",
-    "main.3da8e2f5.js.map": "/static/js/main.3da8e2f5.js.map"
+    "main.015bb777.js.map": "/static/js/main.015bb777.js.map"
   },
   "entrypoints": [
     "static/css/main.5085d22f.css",
-    "static/js/main.3da8e2f5.js"
+    "static/js/main.015bb777.js"
   ]
 }
