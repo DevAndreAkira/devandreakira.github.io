@@ -68,7 +68,7 @@ const Historico = () => {
             '06/2020 - 10/2021',
             '06/2021 - 10/2021',
             '09/2021 - 11/2021',
-            `01/2022 - ${dataNow()}`,
+            `01/2022 - 05/2024`,
         ],
         status: [
             `${i18n.t('duracao.status')}`,
@@ -165,7 +165,7 @@ const Historico = () => {
                     <div className="row row-cols-1 row-cols-md-12 m-auto">
                         <Row xs={1} md={2} className="g-2">
                             {Array.from({ length: 5 }).map((_, idx) => (
-                                <Col>
+                                <Col key={idx} className='m-0'>
                                     <Card className="bg-dark text-white">
                                         <Card.Title>{cardsInfos.title[idx]}</Card.Title>
                                         <div className='d-flex justify-content-between'>
@@ -178,9 +178,9 @@ const Historico = () => {
                                                         {obj_Calculo.contadorTempo(cardsInfos.periodo[idx])}
                                                     </span>
                                                 </Card.Text>
-                                                <Card.Text>
+                                                {/* <Card.Text>
                                                     {(cardsInfos.title[idx] === "Hands-On Tecnologia da Informação") ? cardsInfos.status : <br />}
-                                                </Card.Text>
+                                                </Card.Text> */}
                                             </div>
                                             <img src={cardsInfos.imgs[idx]} className="logoEmpresas my-auto" width='50px' height="50px" alt="empresa" />
                                         </div>
