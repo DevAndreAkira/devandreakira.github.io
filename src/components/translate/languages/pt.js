@@ -56,6 +56,7 @@ const messages = {
                 cargo3: 'Desenvolvedor Web Designer',
                 cargo4: 'Desenvolvedor Web',
                 cargo5: 'Desenvolvedor Front-end',
+                cargo6: 'Desenvolvedor Pleno',
             },
             duracao: {
                 status: 'Trabalhando atualmente ✔️',
